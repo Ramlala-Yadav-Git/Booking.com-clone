@@ -7,6 +7,7 @@ const Cont = styled.div`
 width:80%;
 margin: auto;
 
+
 `
 const H1 = styled.h1`
 font-size: 24px;
