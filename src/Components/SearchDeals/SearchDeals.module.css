@@ -1,0 +1,161 @@
+.searchDealsContainer *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "BlinkMacSystemFont","-apple-system","Segoe UI",'Roboto','Helvetica','Arial','sans-serif'
+
+}
+.searchDealsContainer {
+    border: 1px solid rgba(190, 187, 187, 0.616);
+    background-color: rgb(245,245,245);
+    padding-right: 10%;
+    padding-left: 12%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.searchDealsContainer > .uppertext > h3{
+    color: rgb(51,51,51);
+    font-size: 24px;
+    font-weight: 600;
+}
+.searchDealsContainer > .uppertext > p{
+     font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(107,107,107);
+}
+
+.searchDealsContainer .searchDealsBars{
+    border: 4px solid rgb(254,187,2);
+    border-radius: 5px;
+    margin-top: 4%;
+    display: flex;
+}
+.searchDealsContainer .searchDealsBars > .search{
+    border-right: 4px solid rgb(254,187,2);
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.searchDealsContainer .searchDealsBars >.search .svgImg img{
+  margin-top: 5px;
+}
+.searchDealsContainer .searchDealsBars > .search .input {
+ border:none ;
+ background-color: inherit;
+ outline:none;
+ width: 80%;
+}
+.searchDealsContainer .searchDealsBars > .search input {
+ border:none ;
+ background-color: inherit;
+ outline:none;
+ width: 100%;
+ font-size: 15px;
+ font-weight: 500;
+  margin-top: 2px;
+
+
+}
+.searchDealsContainer .searchDealsBars > .search .Cross .svgCross {
+margin-top: 2px;
+cursor: pointer;
+
+fill: rgb(82, 80, 80);
+}
+.searchDealsContainer .searchDealsBars > .calender{
+    border-right: 4px solid rgb(254,187,2);
+    width: 22%;
+    position: relative;
+    padding-top: 1.2%;
+    padding-left: 1%;
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderPermnantItems{
+display: flex;
+font-weight: 500;
+color:rgb(85, 84, 84) ;
+
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderPermnantItems > div {
+margin-right: 4%;
+display: flex;
+font-size: 15px;
+cursor: pointer;
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderPermnantItems > div p {
+font-size: 15px;
+color:rgb(85, 84, 84) ;
+margin-right:7%;
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderItem{
+   position: absolute;
+   top: 60px;
+}
+.searchDealsContainer .searchDealsBars > .selector{
+    border-right: 4px solid rgb(254,187,2);
+    width: 32%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.searchDealsContainer .searchDealsBars > .selector .manIcon img{
+   width:18px;
+   margin-top: 1px;
+
+}
+.searchDealsContainer .searchDealsBars > .selector > div{
+   padding-top: 3.5%;
+   cursor: pointer;
+
+}
+ 
+
+.searchDealsContainer .searchDealsBars >.selector .selectorItems{
+    display: flex;
+   
+}
+.searchDealsContainer .searchDealsBars >.selector .selectorItems p{
+  font-weight: 500;
+  margin-left: 10px;
+  color: rgb(85, 84, 84);
+   
+}
+.searchDealsContainer .searchDealsBars > .button{
+    width: 13%;
+}
+.searchDealsContainer .searchDealsBars > .button button{
+    border: none;
+    background-color: rgb(0,113,194);
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+    padding: 8%;
+    cursor: pointer;
+}
+
+
+
+.searchDealsContainer >.lowerText{
+    display: flex;
+    margin-top: 2%;
+}
+.searchDealsContainer >.lowerText input{
+  padding: 100px;
+   width: 20px;
+   height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    display: block;
+    min-height: 20px;
+    cursor: pointer;
+    padding-left: 8px;
+    margin-right: 10px;
+}
+.searchDealsContainer >.lowerText p{
+    font-size: 14px;
+    color: rgb(107,107,107);
+}

@@ -1,9 +1,13 @@
-import './App.css';
+import { Navbar } from "./Components/Navbar/Navbar"
+import { SearchDeals } from "./Components/SearchDeals/SearchDeals"
+import { SearchRequest } from "./Components/SearchPage/SearchRequest";
 
 function App() {
   return (
     <div className="App">
-      <h1>hii</h1>
+      <Navbar />
+      <SearchDeals />
+      <SearchRequest />
     </div>
   );
 }
