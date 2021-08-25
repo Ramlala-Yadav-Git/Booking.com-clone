@@ -1,0 +1,578 @@
+{
+    "regions":[
+        {
+            "name":"Isle of Wight",
+            "properties":"993 properties"
+        },
+        {
+            "name":"Tenerife",
+            "properties":"9,601 properties"
+        },
+        {
+            "name":"Hawaii",
+            "properties":"5,516 properties"
+        },
+        {
+            "name":"Texel",
+            "properties":"413 properties"
+        },
+        {
+            "name":"Mykonos",
+            "properties":"1,452 properties"
+        },
+        {
+            "name":"Bora Bora",
+            "properties":"59 properties"
+        },
+        {
+            "name":"Bali",
+            "properties":"12,679 properties"
+        },
+        {
+            "name":"Uttar Pradesh",
+            "properties":"4,370 properties"
+        },
+        {
+            "name":"Phuket Province",
+            "properties":"5,494 properties"
+        },
+        {
+            "name":"Cornwall",
+            "properties":"5,275 properties"
+        },
+        {
+            "name":"Ibiza",
+            "properties":"1,640 properties"
+        },
+        {
+            "name":"Santorini",
+            "properties":"1,762 properties"
+        },
+        {
+            "name":"Lake District",
+            "properties":"2,403 properties"
+        },
+        {
+            "name":"Bihar",
+            "properties":"761 properties"
+        },
+        {
+            "name":"Jersey",
+            "properties":"89 properties"
+        },
+        {
+            "name":"England",
+            "properties":"73,969 properties"
+        },
+        {
+            "name":"Zanzibar",
+            "properties":"835 properties"
+        },
+        {
+            "name":"Ras Al Khaimah",
+            "properties":"113 properties"
+        },
+        {
+            "name":"Guernsey",
+            "properties":"61 properties"
+        }
+    ],
+
+
+
+
+
+
+    "cities":[
+        {
+            "name":"Bangkok",
+            "properties":"4,040 hotels"
+        },
+        {
+            "name":"York",
+            "properties":"830 hotels"
+        },
+        {
+            "name":"Newcastel upon Tyne",
+            "properties":"387 hotels"
+        },
+        {
+            "name":"Manchester",
+            "properties":"1,087 hotels"
+        },
+        {
+            "name":"London",
+            "properties":"14,522 hotels"
+        },
+        {
+            "name":"Liverpool",
+            "properties":"1,083 hotels"
+        },
+        {
+            "name":"Leeds",
+            "properties":"381 hotels"
+        },
+        {
+            "name":"Glasgow",
+            "properties":"915 hotels"
+        },
+        {
+            "name":"Edinburgh",
+            "properties":"3,344 hotels"
+        },
+        {
+            "name":"Carbis Bay",
+            "properties":"69 hotels"
+        },
+        {
+            "name":"Bristol",
+            "properties":"643 hotels"
+        },
+        {
+            "name":"Brighton & Hove",
+            "properties":"856 hotels"
+        },
+        {
+            "name":"Bournemouth",
+            "properties":"404 hotels"
+        },
+        {
+            "name":"Blackpool",
+            "properties":"896 hotels"
+        },
+        {
+            "name":"Birmingham",
+            "properties":"1,009 hotels"
+        },
+        {
+            "name":"Stockholm",
+            "properties":"445 hotels"
+        },
+        {
+            "name":"Manila",
+            "properties":"4,797 hotels"
+        },
+        {
+            "name":"Kuala Lumpur",
+            "properties":"4,224 hotels"
+        },
+        {
+            "name":"Amsterdam",
+            "properties":"1,913 hotels"
+        },
+        {
+            "name":"Berlin",
+            "properties":"1,759 hotels"
+        },
+        {
+            "name":"Sydney",
+            "properties":"3,621 hotels"
+        },
+        {
+            "name":"Perth",
+            "properties":"887 hotels"
+        },
+        {
+            "name":"Melbourne",
+            "properties":"2,831 hotels"
+        },
+        {
+            "name":"Gold Coast",
+            "properties":"1,574 hotels"
+        },
+        {
+            "name":"Canberra",
+            "properties":"184 hotels"
+        },
+        {
+            "name":"Brisbane",
+            "properties":"893 hotels"
+        },
+        {
+            "name":"Adelaide",
+            "properties":"416 hotels"
+        },
+        {
+            "name":"Wellington",
+            "properties":"164 hotels"
+        },
+        {
+            "name":"Auckland",
+            "properties":"1,683 hotels"
+        },
+        {
+            "name":"Killarney",
+            "properties":"263 hotels"
+        },
+        {
+            "name":"Galway",
+            "properties":"404 hotels"
+        },
+        {
+            "name":"Dublin",
+            "properties":"1,229 hotels"
+        },
+        {
+            "name":"Cork",
+            "properties":"138 hotels"
+        },
+        {
+            "name":"Paris",
+            "properties":"7,578 hotels"
+        },
+        {
+            "name":"Hong Kong",
+            "properties":"813 hotels"
+        },
+        {
+            "name":"Doha",
+            "properties":"160 hotels"
+        },
+        {
+            "name":"Ras al Khaimah",
+            "properties":"114 hotels"
+        },
+        {
+            "name":"Dubai",
+            "properties":"4,299 hotels"
+        },
+        {
+            "name":"Fujairah",
+            "properties":"22 hotels"
+        },
+        {
+            "name":"Ajman",
+            "properties":"81 hotels"
+        },
+        {
+            "name":"Abu Dhabi",
+            "properties":"169 hotels"
+        },
+        {
+            "name":"Istanbul",
+            "properties":"4,217 hotels"
+        },
+        {
+            "name":"Seoul",
+            "properties":"2,304 hotels"
+        },
+        {
+            "name":"Vancouver",
+            "properties":"627 hotels"
+        },
+        {
+            "name":"Toronto",
+            "properties":"2,034 hotels"
+        },
+        {
+            "name":"Ottawa",
+            "properties":"240 hotels"
+        },
+        {
+            "name":"Niagara Falls",
+            "properties":"253 hotels"
+        },
+        {
+            "name":"Montreal",
+            "properties":"1,118 hotels"
+        },
+        {
+            "name":"Kelowna",
+            "properties":"214 hotels"
+        },
+        {
+            "name":"Jasper",
+            "properties":"55 hotels"
+        },
+        {
+            "name":"Edmonton",
+            "properties":"274 hotels"
+        },
+        {
+            "name":"Canmore",
+            "properties":"149 hotels"
+        },
+        {
+            "name":"Banff",
+            "properties":"50 hotels"
+        },
+        {
+            "name":"Barcelona",
+            "properties":"3,319 hotels"
+        },
+        {
+            "name":"Tokyo",
+            "properties":"5,655 hotels"
+        },
+        {
+            "name":"Rome",
+            "properties":"14,102 hotels"
+        },
+        {
+            "name":"Singapore",
+            "properties":"808 hotels"
+        },
+        {
+            "name":"Whistler",
+            "properties":"332 hotels"
+        },
+        {
+            "name":"Rotorua",
+            "properties":"279 hotels"
+        },
+        {
+            "name":"Queenstown",
+            "properties":"823 hotels"
+        }
+    ],
+
+
+   
+
+
+
+
+
+    "interests":[
+        {
+            "name":"Kalahari Waterpark",
+            "properties":"43 properties"
+        },
+        {
+            "name":"Al Maha wildlife Reserve",
+            "properties":"1 properties"
+        },
+        {
+            "name":"River Walk",
+            "properties":"671 properties"
+        },
+        {
+            "name":"Burj Al Arab Tower",
+            "properties":"4,299 properties"
+        },
+        {
+            "name":"Niagara Falls State Park",
+            "properties":"75 properties"
+        },
+        {
+            "name":"Disneyland",
+            "properties":"247 properties"
+        },
+        {
+            "name":"Portmeirion",
+            "properties":"9 properties"
+        },
+        {
+            "name":"Heathrow Terminal 2",
+            "properties":""
+        },
+        {
+            "name":"Wembley Stadium",
+            "properties":"14,522 properties"
+        },
+        {
+            "name":"State Park",
+            "properties":"21 properties"
+        },
+        {
+            "name":"Guadalupe River Tubing",
+            "properties":"327 properties"
+        },
+        {
+            "name":"Ocean City Boarddwalk",
+            "properties":"768 properties"
+        },
+        {
+            "name":"Eiffel Tower",
+            "properties":"7,578 properties"
+        },
+        {
+            "name":"Disneyland Paris",
+            "properties":"7,578 properties"
+        },
+        {
+            "name":"Times Square",
+            "properties":"1,383 properties"
+        },
+        {
+            "name":"The Shard",
+            "properties":"14,522 properties"
+        },
+        {
+            "name":"Universal Studios Orlando",
+            "properties":"3,691 properties"
+        },
+        {
+            "name":"O2 Arena",
+            "properties":"14,522 properties"
+        },
+        {
+            "name":"Comal River Tubing",
+            "properties":"327 properties"
+        },
+        {
+            "name":"Heathrow Terminal 5",
+            "properties":"61 properties"
+        }
+        
+    ],
+
+
+
+
+
+
+    "discover":[
+        {
+            "name":"You'll love relaxation, restaurants and shopping during your next trip to United States of America!",
+            "img":"https://cf.bstatic.com/images/city/360x240/689/689587.jpg",
+            "title":"United State of America"
+        },
+        {
+            "name":"You'll love old town, scenery and food during your next trip to Italy!",
+            "img":"https://cf.bstatic.com/images/city/360x240/613/613105.jpg",
+            "title":"Italy"
+        },
+        {
+            "name":"Put tranquillity, scenery and old town on your to-do list for your next trip to France!",
+            "img":"https://cf.bstatic.com/images/city/360x240/613/613088.jpg",
+            "title":"France"
+        },
+        {
+            "name":"If tranquillity, old town and food are your thing, don’t miss out on Spain!",
+            "img":"https://cf.bstatic.com/images/city/360x240/971/971353.jpg",
+            "title":"Spain"
+        },
+        {
+            "name":"Don’t miss out on Germany! Top destination for old town, walking and city walks",
+            "img":"https://cf.bstatic.com/images/city/360x240/613/613105.jpg",
+            "title":"Germany"
+        },
+        {
+            "name":"Try United Kingdom for your next trip! Enjoy shopping, scenery and sightseeing while you’re there!",
+            "img":"https://cf.bstatic.com/images/city/360x240/613/613095.jpg",
+            "title":"United Kingdom"
+        },
+        {
+            "name":"Russia is highly rated by travelers for city walks, sightseeing and architecture.",
+            "img":"https://cf.bstatic.com/images/city/360x240/620/620007.jpg",
+            "title":"Russia"
+        },
+        {
+            "name":"Croatia is highly rated by travelers for oceanside, relaxation and old town.",
+            "img":"https://cf.bstatic.com/images/city/360x240/638/638617.jpg",
+            "title":"Croatia"
+        },
+        {
+            "name":"Put tranquillity, nature and beaches on your to-do list for your next trip to Brazil!",
+            "img":"https://cf.bstatic.com/images/city/360x240/653/653641.jpg",
+            "title":"Brazil"
+        },
+        {
+            "name":"Relaxation, sightseeing and temples are just a few reasons why travelers enjoy India.",
+            "img":"https://cf.bstatic.com/images/city/360x240/684/684765.jpg",
+            "title":"India"
+        },
+        {
+            "name":"Relaxation, beaches and food are just a few reasons why travelers enjoy Greece.",
+            "img":"https://cf.bstatic.com/images/city/360x240/971/971374.jpg",
+            "title":"Greece"
+        },
+        {
+            "name":"If old town, walking and city walks are your thing, don’t miss out on Poland!",
+            "img":"https://cf.bstatic.com/images/city/360x240/653/653082.jpg",
+            "title":"Poland"
+        },
+        {
+            "name":"Don’t miss out on Japan! Top destination for food, sightseeing and scenery.",
+            "img":"https://cf.bstatic.com/images/city/360x240/619/619763.jpg",
+            "title":"Japan"
+        },
+        {
+            "name":"You'll love relaxation, scenery and nature during your next trip to South Africa!",
+            "img":"https://cf.bstatic.com/images/city/360x240/674/674546.jpg",
+            "title":"South Africa"
+        },
+        {
+            "name":"If old town, tranquillity and scenery are your thing, don’t miss out on Portugal!",
+            "img":"https://cf.bstatic.com/images/city/360x240/619/619965.jpg",
+            "title":"Portugal"
+        },
+        {
+            "name":"You'll love relaxation, scenery and beaches during your next trip to Australia!",
+            "img":"https://cf.bstatic.com/images/city/360x240/682/682540.jpg",
+            "title":"Australia"
+        },
+        {
+            "name":"Put nature, mountains and scenery on your to-do list for your next trip to Austria!",
+            "img":"https://cf.bstatic.com/images/city/360x240/619/619925.jpg",
+            "title":"Austria"
+        },
+        {
+            "name":"Travelers choose Thailand for relaxation, food and beaches.",
+            "img":"https://cf.bstatic.com/images/city/360x240/620/620029.jpg",
+            "title":"Thailand"
+        },
+        {
+            "name":"the ideal getaway for food, sightseeing and culture!",
+            "img":"https://cf.bstatic.com/images/city/360x240/683/683831.jpg",
+            "title":"China"
+        },
+        {
+            "name":"Put relaxation, food and beaches on your to-do list for your next trip to Indonesia!",
+            "img":"https://cf.bstatic.com/images/city/360x240/688/688053.jpg",
+            "title":"Indonesia"
+        },
+        {
+            "name":"Argentina – the ideal getaway for tranquillity, scenery and nature!",
+            "img":"https://cf.bstatic.com/images/city/360x240/664/664052.jpg",
+            "title":"Argentina"
+        },
+        {
+            "name":"Mexico is a great choice for travelers interested in food, friendly locals and tranquillity",
+            "img":"https://cf.bstatic.com/images/city/360x240/682/682683.jpg",
+            "title":"Mexico"
+        },
+        {
+            "name":"Put scenery, nature and restaurants on your to-do list for your next trip to Canada!",
+            "img":"https://cf.bstatic.com/images/city/360x240/971/971990.jpg",
+            "title":"Canada"
+        },
+        {
+            "name":"Vietnam – the ideal getaway for food, friendly locals and local food!",
+            "img":"https://cf.bstatic.com/images/city/360x240/688/688893.jpg",
+            "title":"Vietnam"
+        },
+        {
+            "name":"Georgia is a great choice for travelers interested in friendly locals, nature and local food.",
+            "img":"https://cf.bstatic.com/images/city/360x240/691/691464.jpg",
+            "title":"Georgia"
+        },
+        {
+            "name":"Don’t miss out on Romania! Top destination for relaxation, old town and scenery",
+            "img":"https://cf.bstatic.com/images/city/360x240/674/674375.jpg",
+            "title":"Romania"
+        },
+        {
+            "name":"Walking, city walks and cycling are just a few reasons why you’ll love Netherlands.",
+            "img":"https://cf.bstatic.com/images/city/360x240/972/972585.jpg",
+            "title":"Netherlands"
+        },
+        {
+            "name":"Malaysia – the ideal getaway for relaxation, food and shopping!",
+            "img":"https://cf.bstatic.com/images/city/360x240/685/685535.jpg",
+            "title":"Malaysia"
+        },
+        {
+            "name":"Ukraine – the ideal getaway for city walks, architecture and old town!",
+            "img":"https://cf.bstatic.com/images/city/360x240/664/664728.jpg",
+            "title":"Ukraine"
+        },
+        {
+            "name":"Old Town, city walks and architecture are just a few reasons why travelers enjoy Czech Republic.",
+            "img":"https://cf.bstatic.com/images/city/360x240/653/653172.jpg",
+            "title":"Czech Republic"
+        }
+
+    ]
+}
