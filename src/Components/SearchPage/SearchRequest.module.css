@@ -1,0 +1,221 @@
+
+
+.SearchRequestContainer *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'BlinkMacSystemFont','-apple-system','Segoe','UI','Roboto','Helvetica','Arial','sans-serif';
+}
+
+.SearchRequestContainer{
+    width: 20%;
+    padding: 1.1%;
+    background-color: rgb(254,187,2);
+    border-radius: 2px;
+}
+.SearchRequestContainer > p{
+font-size: 1.3rem;
+font-weight: 500;
+color: rgb(83, 83, 83);
+
+
+}
+
+
+.SearchRequestContainer  .destination {
+margin-top: 2%;
+}
+
+.SearchRequestContainer  .destination>div {
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding-left: 4%;
+padding-right: 1%;
+border-radius: 2px;
+margin-top: 2%;
+}
+.SearchRequestContainer  .destination> p {
+font-size: 0.85rem;
+
+color: rgb(48, 47, 47);
+}
+.SearchRequestContainer  .destination>div svg{
+margin-top: 4.5%;
+/* width: 19%;
+height: 19%; */
+margin-left: 1%;
+
+}
+.SearchRequestContainer  .destination>div input{
+background-color:none ;
+outline: none;
+border: none;
+padding: 5%;
+font-size:1rem;
+margin-right: 7%;
+}
+
+.SearchRequestContainer .startDate  {
+margin-top: 2%;
+
+}
+.SearchRequestContainer .startDate > div {
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding-left: 4%;
+padding-right: 1%;
+border-radius: 2px;
+margin-top: 2%;
+
+}
+.SearchRequestContainer  .startDate> p {
+
+font-size: 0.85rem;
+
+color: rgb(48, 47, 47);
+}
+
+.SearchRequestContainer .startDate > div input{
+background-color:none ;
+outline: none;
+border: none;
+padding: 5%;
+font-size: 1rem;
+
+}
+.SearchRequestContainer .startDate > div svg{
+margin-top: 4%;
+}
+
+.SearchRequestContainer .endDate {
+    margin-top: 2%;
+}
+.SearchRequestContainer .endDate > div {
+background-color: white;
+display: flex;
+justify-content: space-between;
+padding-left: 4%;
+padding-right: 1%;
+border-radius: 2px;
+margin-top: 2%;
+}
+.SearchRequestContainer  .endDate> p {
+font-size: 0.85rem;
+
+color: rgb(48, 47, 47);
+}
+.SearchRequestContainer .endDate > div input{
+background-color:none ;
+outline: none;
+border: none;
+padding: 5%;
+font-size: 1rem;
+
+}
+.SearchRequestContainer .endDate > div svg{
+margin-top: 4%;
+}
+.SearchRequestContainer .stay {
+    margin-top: 5%;
+}
+.SearchRequestContainer .stay >p{
+    font-size: 0.85rem;
+    margin: 1%;
+    margin-bottom: 3%;
+    color: rgb(58, 56, 56);
+
+}
+.SearchRequestContainer .stay > div {
+display: flex;
+background-color: white;
+border-radius:2px;
+justify-content: space-between;
+
+}
+.SearchRequestContainer .stay > div input{
+background-color:none ;
+outline: none;
+border: none;
+padding: 5%;
+font-size: 1rem;
+
+}
+.SearchRequestContainer .stay > div svg{
+margin-top: 5%;
+margin-right: 2%;
+
+
+}
+.SearchRequestContainer .children {
+display: flex;
+margin-top: 2%;
+}
+.SearchRequestContainer .children > div {
+display: flex;
+background-color: white;
+border-radius:2px;
+
+}
+
+.SearchRequestContainer .children :nth-child(1) {
+
+margin-right: 2%;
+
+}
+.SearchRequestContainer .children > div .svg{
+fill: #838181;
+margin-top: 8%;
+margin-right: 5%;
+height: 20px;
+width: 20px;
+}
+.SearchRequestContainer .children > div input{
+background-color:none ;
+outline: none;
+border: none;
+width: 100%;
+font-size: 1rem;
+padding: 8%;
+}
+.SearchRequestContainer .lower{
+display: flex;
+justify-content: space-between;
+ margin-top: 3%;
+
+}
+.SearchRequestContainer .lower >div{
+display: flex;
+justify-content: space-between;
+}
+.SearchRequestContainer .lower >div p{
+font-size: 0.85rem;
+margin-left: 0.3rem;
+color: rgb(48, 47, 47);
+
+}
+.SearchRequestContainer .lower >div input{
+font-size: 1rem;
+margin-top: 0px;
+}
+.SearchRequestContainer .button{
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.SearchRequestContainer .button button{
+    border:none;
+    background-color: rgb(0,113,194);
+    width: 100%;
+    color: white;
+    padding: 4%;
+    font-size: 1.01rem;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.SearchRequestContainer .button button:hover{
+    background-color: rgb(1, 67, 160);
+}

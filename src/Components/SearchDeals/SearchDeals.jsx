@@ -139,7 +139,10 @@ export const SearchDeals = () => {
 
 
 function currentDatePicker(D, M, day) {
-    var month = new Array();
+    var month = [];
+    for (let i = 0; i < 12; i++) {
+        month.push(0)
+    }
     month[0] = "Jan";
     month[1] = "Feb";
     month[2] = "March";
@@ -153,7 +156,10 @@ function currentDatePicker(D, M, day) {
     month[10] = "Nov";
     month[11] = "Dec";
 
-    var weekday = new Array(7);
+    var weekday = [];
+    for (let i = 0; i < 7; i++) {
+        weekday.push(0)
+    }
     weekday[0] = "Sun";
     weekday[1] = "Mon";
     weekday[2] = "Tue";
@@ -161,7 +167,6 @@ function currentDatePicker(D, M, day) {
     weekday[4] = "Thur";
     weekday[5] = "Fri";
     weekday[6] = "Sat";
-    var d = new Date();
     var currentDay = weekday[D];
 
     var currentMonth = month[M];
@@ -172,7 +177,10 @@ function currentDatePicker(D, M, day) {
 }
 
 function endDatePicker(D, M, day) {
-    var month = new Array();
+    var month = [];
+    for (let i = 0; i < 12; i++) {
+        month.push(0)
+    }
     month[0] = "Jan";
     month[1] = "Feb";
     month[2] = "March";
@@ -186,7 +194,10 @@ function endDatePicker(D, M, day) {
     month[10] = "Nov";
     month[11] = "Dec";
 
-    var weekday = new Array(7);
+    var weekday = [];
+    for (let i = 0; i < 7; i++) {
+        weekday.push(0)
+    }
     weekday[0] = "Sun";
     weekday[1] = "Mon";
     weekday[2] = "Tue";
@@ -194,7 +205,6 @@ function endDatePicker(D, M, day) {
     weekday[4] = "Thur";
     weekday[5] = "Fri";
     weekday[6] = "Sat";
-    var d = new Date();
     var currentDay = weekday[D];
 
     var currentMonth = month[M];
