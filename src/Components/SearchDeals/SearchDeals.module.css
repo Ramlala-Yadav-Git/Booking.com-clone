@@ -43,19 +43,19 @@
   margin-top: 5px;
 }
 .searchDealsContainer .searchDealsBars > .search .input {
- border:none ;
+ /* border:none ;
  background-color: inherit;
  outline:none;
- width: 80%;
+ width: 80%; */
 }
 .searchDealsContainer .searchDealsBars > .search input {
- border:none ;
+ /* border:none ;
  background-color: inherit;
  outline:none;
  width: 100%;
  font-size: 15px;
  font-weight: 500;
-  margin-top: 2px;
+  margin-top: 2px; */
 
 
 }
@@ -67,7 +67,7 @@ fill: rgb(82, 80, 80);
 }
 .searchDealsContainer .searchDealsBars > .calender{
     border-right: 4px solid rgb(254,187,2);
-    width: 22%;
+    width: 28%;
     position: relative;
     padding-top: 1.2%;
     padding-left: 1%;
@@ -89,9 +89,31 @@ font-size: 15px;
 color:rgb(85, 84, 84) ;
 margin-right:7%;
 }
-.searchDealsContainer .searchDealsBars > .calender .calenderItem{
+.searchDealsContainer .searchDealsBars > .calender .calenderItem2{
    position: absolute;
    top: 60px;
+   left: -35px;
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderItem{
+     position: absolute;
+   top: 60px;
+   left: -35px;
+ 
+
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderItem > .datePicke{
+  text-align:center ;
+ font-weight: 500;
+color:rgb(85, 84, 84) ;
+
+
+}
+.searchDealsContainer .searchDealsBars > .calender .calenderItem2> .datePicke{
+  text-align:center ;
+ font-weight: 500;
+color:rgb(85, 84, 84) ;
+ 
+
 }
 .searchDealsContainer .searchDealsBars > .selector{
     border-right: 4px solid rgb(254,187,2);
@@ -107,10 +129,59 @@ margin-right:7%;
 }
 .searchDealsContainer .searchDealsBars > .selector > div{
    padding-top: 3.5%;
-   cursor: pointer;
+  
 
 }
- 
+.searchDealsContainer .searchDealsBars .selectorItems{
+
+  
+ cursor: pointer;
+}
+
+.searchDealsContainer .searchDealsBars > .selector >.selectorDropDown {
+    position: absolute;
+    width: 27%;
+    padding: 1%;
+    background-color: white;
+    z-index: 4;
+    top: 330px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(116, 115, 115, 0.445);
+  
+}
+.searchDealsContainer .searchDealsBars > .selector >.selectorDropDown  .adult{
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+
+}
+.searchDealsContainer .searchDealsBars > .selector >.selectorDropDown  .adult 
+>div{
+ display: flex;
+ justify-content: space-between;
+}
+.searchDealsContainer .searchDealsBars > .selector >.selectorDropDown  .adult 
+>div button{
+border: 1px solid rgb(0,113,194);
+padding-left: 15px;
+padding-bottom: 5px;
+padding-right: 15px;
+margin-right: 15px;
+margin-left: 15px;
+font-size: 20px;
+color: rgb(0,113,194);
+border-radius: 4px;
+cursor: pointer;
+background-color: white;
+}
+.searchDealsContainer .searchDealsBars > .selector >.selectorDropDown  .adult 
+>div h4{
+font-size: 15px;
+margin-top: 7px;
+font-weight:500;
+  color: rgb(85, 84, 84);
+
+}
 
 .searchDealsContainer .searchDealsBars >.selector .selectorItems{
     display: flex;
@@ -159,3 +230,4 @@ margin-right:7%;
     font-size: 14px;
     color: rgb(107,107,107);
 }
+

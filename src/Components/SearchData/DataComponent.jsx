@@ -6,10 +6,10 @@ const DataComponent = ({ data }) => {
   return (
     <div className={styles.maindiv}>
       <div className={styles.imgdiv}>
-        <img src={data[0]} alt="" />
+        {/* <img src={data[0]} alt="" /> */}
       </div>
       <div className={styles.datadiv}>
-        <h3 className={styles.h3}>{data[1]}</h3>
+        {/* <h3 className={styles.h3}>{data[1]}</h3> */}
 
         <div>
           <p
@@ -19,7 +19,7 @@ const DataComponent = ({ data }) => {
               cursor: "pointer",
             }}
           >
-            {data[2]}
+            {/* {data[2]} */}
           </p>
           <p
             style={{
@@ -30,12 +30,12 @@ const DataComponent = ({ data }) => {
           >
             Show on map
           </p>
-          <p>{data[3]} km from center</p>
+          {/* <p>{data[3]} km from center</p> */}
         </div>
         <h5 style={{ padding: "0", marginTop: "4px", marginBottom: "6px" }}>
-          {data[4]}
+          {/* {data[4]} */}
         </h5>
-        <p style={{ padding: "0", margin: "0", fontSize: "13px" }}>{data[5]}</p>
+        {/* <p style={{ padding: "0", margin: "0", fontSize: "13px" }}>{data[5]}</p> */}
         <h5
           style={{
             color: "green",
@@ -153,4 +153,4 @@ const DataComponent = ({ data }) => {
   );
 };
 
-export default DataComponent;
+export { DataComponent };
