@@ -92,3 +92,9 @@
     padding: 0;
     margin: 0;
 }
+.logoutText{
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: capitalize;
+    /* padding-bottom: 10px; */
+}

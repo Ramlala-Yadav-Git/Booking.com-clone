@@ -3,12 +3,12 @@ import useFetch from '../Hooks/useFetch'
 import Loader from './Loader'
 import ReactPaginate from 'react-paginate';
 import styles from './Main.module.css'
-import useTimedout from '../Hooks/useTimeout'
-import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
+// import useTimedout from '../Hooks/useTimeout'
+// import SkipPreviousIcon from '@material-ui/icons/SkipPrevious';
 
 const Discover = () => {
-    const { loading, data, error } = useFetch(`http://localhost:3001/discover`);
-    const ready = useTimedout(2000)
+    const { loading, data } = useFetch(`http://localhost:3001/discover`);
+    // const ready = useTimedout(2000)
     const [pgnumber, setpgnumber] = useState(0)
     const items = 5
     const pgvisited = pgnumber * items

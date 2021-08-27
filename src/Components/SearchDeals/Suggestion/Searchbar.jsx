@@ -17,10 +17,10 @@ const SearchBarWrapper = styled.div`
     font-weight: 100;
     color: gray;
 `
-const IconImage = styled.img`
+// const IconImage = styled.img`
 /* height:20px;
 padding-right: 20px; */
-`
+// `
 const Input = styled.input`
 border:none;
 outline: none;

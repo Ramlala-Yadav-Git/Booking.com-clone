@@ -3,7 +3,7 @@ import styles from "../SearchData/DataComponent.module.css";
 
 
 
-const DataComponent = ({ url, id, price, name, city, distance, bedSize, roomSize, cancelationPolicy, cancellation, reviews, rating, breakFast, availability, availableRooms, discountedPrice }) => {
+const DataComponent = ({ url, id, view, price, name, city, distance, bedSize, roomSize, cancelationPolicy, cancellation, reviews, rating, breakFast, availability, availableRooms, discountedPrice }) => {
   const lab = "See Availability >";
   return (
     <div className={styles.maindiv}>
@@ -76,8 +76,8 @@ const DataComponent = ({ url, id, price, name, city, distance, bedSize, roomSize
       <div>
         <div style={{ display: "flex", float: "right" }}>
           <div style={{ marginRight: "3px" }}>
-            <h5 style={{ padding: "0", margin: "0", fontSize: "16px" }}>
-              Very Good
+            <h5 style={{ padding: "0", margin: "0", marginTop: "5px", fontSize: "16px", textAlign: "right" }}>
+              {view}
             </h5>
             <p
               style={{
