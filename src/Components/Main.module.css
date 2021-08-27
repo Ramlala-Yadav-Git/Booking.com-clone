@@ -5,8 +5,9 @@
     height:20px;
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin-left: 36.3%;
+    justify-content:flex-end;
+    /* margin-right: 20px; */
+    /* overflow: hidden; */
 }
 
 .paginationbtns a{

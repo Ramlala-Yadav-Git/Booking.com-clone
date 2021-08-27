@@ -1,4 +1,4 @@
-import { fontWeight } from "@material-ui/system";
+// import { fontWeight } from "@material-ui/system";
 import React from "react";
 import FooterWhite from "./FooterWhite";
 
@@ -9,8 +9,8 @@ const input1 = {
   border: "none",
   borderRadius: "4px",
   fontSize: "20px",
-  fontWeight:"100",
-  paddingLeft:"8px"
+  fontWeight: "100",
+  paddingLeft: "8px",
 };
 const label = { color: "white", fontSize: "17px", padding: "0", margin: "0" };
 const button = {
@@ -38,10 +38,10 @@ const p2 = {
   marginBottom: "14px",
 };
 
-const link={
-    color:"white",
-    fontSize:"14px",
-    fontWeight:"500"
+const link = {
+  color: "white",
+  fontSize: "14px",
+  fontWeight: "500"
 }
 
 const FooterBlue = () => {
@@ -52,6 +52,7 @@ const FooterBlue = () => {
           marginTop: "50px",
           backgroundColor: "#00224F",
           padding: "30px",
+          textAlign: "center"
         }}
       >
         <p style={p1}>Save time, save money!</p>
@@ -61,7 +62,7 @@ const FooterBlue = () => {
           <button style={button}>Subscribe</button>
         </div>
         <input type="checkbox" id="c1" />
-        <label style={label} for="c1">
+        <label style={label} forhtml="c1">
           Send me a link to get the FREE Booking.com app!
         </label>
       </div>
@@ -70,7 +71,7 @@ const FooterBlue = () => {
           backgroundColor: "#003580",
           paddingTop: "20px",
           paddingBottom: "15px",
-          border:"none"
+          border: "none"
         }}
       >
         <button
@@ -81,21 +82,24 @@ const FooterBlue = () => {
             color: "white",
             borderRadius: "4px",
             cursor: "pointer",
+            textAlign: "center",
+            margin: "auto",
+            marginLeft: "50%"
           }}
         >
           List your property
         </button>
-        <hr style={{border:"none",background:"white",height:"1px",marginTop:"15px"}} />
-        <div style={{width:"70%",margin:"auto",display:"flex",justifyContent:"space-between"}}>
-            <a href="/" style={link}>Mobile version</a>
-            <a href="/" style={link}>Your account</a>
-            <a href="/" style={link}>Make changes online to your booking</a>
-            <a href="/" style={link}>Contact Customer Service</a>
-            <a href="/" style={link}>Become an affiliate</a>
-            <a href="/" style={link}>Booking.com for Business</a>
+        <hr style={{ border: "none", background: "white", height: "1px", marginTop: "15px" }} />
+        <div style={{ width: "70%", margin: "auto", display: "flex", justifyContent: "space-between" }}>
+          <a href="/" style={link}>Mobile version</a>
+          <a href="/" style={link}>Your account</a>
+          <a href="/" style={link}>Make changes online to your booking</a>
+          <a href="/" style={link}>Contact Customer Service</a>
+          <a href="/" style={link}>Become an affiliate</a>
+          <a href="/" style={link}>Booking.com for Business</a>
         </div>
       </div>
-      <FooterWhite/>
+      <FooterWhite />
     </>
   );
 };

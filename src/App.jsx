@@ -1,15 +1,15 @@
-// import { Navbar } from "./Components/Navbar/Navbar"
-// import { SearchDeals } from "./Components/SearchDeals/SearchDeals"
-// import { SearchRequest } from "./Components/SearchPage/SearchRequest";
-import Login from './Components/Login/Login'
+import { HomeGuestsDiv } from "./Components/HomeGuests/HomeGuestsDiv";
+import { Navbar } from "./Components/Navbar/Navbar";
+import { NextTrip } from "./Components/NextTripDiv/NextTrip";
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <SearchDeals />
-      <SearchRequest /> */}
-      <Login/>
+      <Navbar />
+
+      <NextTrip/>
+      <HomeGuestsDiv/>
+     
     </div>
   );
 }
