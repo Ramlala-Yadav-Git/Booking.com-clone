@@ -8,10 +8,10 @@
 }
 
 .SearchRequestContainer{
-    width: 20%;
-    padding: 1.1%;
+    width: 70%;
+    padding: 5%;
     background-color: rgb(254,187,2);
-    border-radius: 2px;
+    border-radius: 10px;
 }
 .SearchRequestContainer > p{
 font-size: 1.3rem;
@@ -42,8 +42,7 @@ color: rgb(48, 47, 47);
 }
 .SearchRequestContainer  .destination>div svg{
 margin-top: 4.5%;
-/* width: 19%;
-height: 19%; */
+
 margin-left: 1%;
 
 }
@@ -52,7 +51,7 @@ background-color:none ;
 outline: none;
 border: none;
 padding: 5%;
-font-size:1rem;
+font-size:0.955rem;
 margin-right: 7%;
 }
 
@@ -83,6 +82,8 @@ outline: none;
 border: none;
 padding: 5%;
 font-size: 1rem;
+cursor: pointer;
+
 
 }
 .SearchRequestContainer .startDate > div svg{
@@ -91,6 +92,7 @@ margin-top: 4%;
 
 .SearchRequestContainer .endDate {
     margin-top: 2%;
+
 }
 .SearchRequestContainer .endDate > div {
 background-color: white;
@@ -112,6 +114,8 @@ outline: none;
 border: none;
 padding: 5%;
 font-size: 1rem;
+cursor: pointer;
+
 
 }
 .SearchRequestContainer .endDate > div svg{
@@ -140,23 +144,25 @@ outline: none;
 border: none;
 padding: 5%;
 font-size: 1rem;
+cursor: pointer;
 
 }
 .SearchRequestContainer .stay > div svg{
 margin-top: 5%;
 margin-right: 2%;
-
+cursor: pointer;
 
 }
 .SearchRequestContainer .children {
 display: flex;
 margin-top: 2%;
+cursor: pointer;
 }
 .SearchRequestContainer .children > div {
 display: flex;
 background-color: white;
 border-radius:2px;
-
+/* cursor: pointer; */
 }
 
 .SearchRequestContainer .children :nth-child(1) {
@@ -178,6 +184,7 @@ border: none;
 width: 100%;
 font-size: 1rem;
 padding: 8%;
+cursor: pointer;
 }
 .SearchRequestContainer .lower{
 display: flex;
@@ -218,4 +225,115 @@ margin-top: 0px;
 }
 .SearchRequestContainer .button button:hover{
     background-color: rgb(1, 67, 160);
+}
+.hotelListContainer{
+
+list-style: none;
+width: 70%;
+justify-content: space-evenly;
+}
+.hotelListContainer > .listOfHotels{
+list-style: none;
+
+border: 1px solid black;
+list-style: none;
+
+}
+.hotelListContainer > .listOfHotels > li{
+margin-bottom: 12px;
+
+list-style: none;
+}
+.serachPageContainer{
+    justify-content: space-evenly;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 4%;
+    padding-right: 10%;
+    padding-left: 10%;
+  
+   
+}
+.cal1{
+    border: none;
+    z-index: 5;
+    box-shadow: 2px 2px 2px 2px rgba(184, 180, 180, 0.616);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.cal .calenderItem{
+    top: 370px;
+    position: absolute;
+    font-size: 1rem;
+    left: 115px;
+
+}
+.cal .calenderItem2{
+    top: 440px;
+    position: absolute;
+    border:none;
+    left: 115px;
+
+
+}
+
+.adultSelect{
+    position: absolute;
+    width: 20.2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(199, 194, 194, 0.589);
+    border-radius: 3px;
+    top: 520px;
+  
+}
+
+.adultSelect> div{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    /* top: 200px; */
+
+   
+}
+.adultSelect> div > button{
+border: none;
+width: 40%;
+ color: white;
+ background-color:rgb(0,113,194) ;
+ padding: 5px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 24px;
+}
+
+.roomSelect,.childSelect{
+    position: absolute;
+    width: 20.2%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(199, 194, 194, 0.589);
+    border-radius: 3px;
+    top: 568px;
+  
+}
+
+.roomSelect> div,.childSelect> div{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    /* top: 200px; */
+
+   
+}
+.roomSelect> div > button,.childSelect> div > button{
+border: none;
+width: 40%;
+ color: white;
+ background-color:rgb(0,113,194) ;
+ padding: 5px;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 24px;
 }

@@ -22,9 +22,10 @@ const Discover = () => {
     }
     return (
         <div style={{
-            margin: "0 auto",
+            margin: "auto",
             width: "80%",
-            textAlign: "left"
+            // textAlign: "left",
+            // padding: "20%"
         }}>
             <h2 style={{ paddingTop: "25px" }}>Discover</h2>
             <div>

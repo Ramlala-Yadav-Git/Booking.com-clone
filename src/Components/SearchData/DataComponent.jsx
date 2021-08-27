@@ -1,15 +1,17 @@
 import React from "react";
 import styles from "../SearchData/DataComponent.module.css";
 
-const DataComponent = ({ data }) => {
+
+
+const DataComponent = ({ url, id, price, name, city, distance, bedSize, roomSize, cancelationPolicy, cancellation, reviews, rating, breakFast, availability, availableRooms, discountedPrice }) => {
   const lab = "See Availability >";
   return (
     <div className={styles.maindiv}>
       <div className={styles.imgdiv}>
-        {/* <img src={data[0]} alt="" /> */}
+        <img src={url} alt="imageofHotel" />
       </div>
       <div className={styles.datadiv}>
-        {/* <h3 className={styles.h3}>{data[1]}</h3> */}
+        <h3 className={styles.h3}>{name}</h3>
 
         <div>
           <p
@@ -19,7 +21,7 @@ const DataComponent = ({ data }) => {
               cursor: "pointer",
             }}
           >
-            {/* {data[2]} */}
+            {city}
           </p>
           <p
             style={{
@@ -28,14 +30,14 @@ const DataComponent = ({ data }) => {
               cursor: "pointer",
             }}
           >
-            Show on map
+            {/* Show on map */}
           </p>
-          {/* <p>{data[3]} km from center</p> */}
+          <p>{distance} km from center</p>
         </div>
         <h5 style={{ padding: "0", marginTop: "4px", marginBottom: "6px" }}>
-          {/* {data[4]} */}
+          {roomSize}
         </h5>
-        {/* <p style={{ padding: "0", margin: "0", fontSize: "13px" }}>{data[5]}</p> */}
+        <p style={{ padding: "0", margin: "0", fontSize: "13px" }}>{bedSize}</p>
         <h5
           style={{
             color: "green",
@@ -44,7 +46,7 @@ const DataComponent = ({ data }) => {
             marginBottom: "0",
           }}
         >
-          Breakfast Included
+          Breakfast {breakFast}
         </h5>
         <h5
           style={{
@@ -54,7 +56,7 @@ const DataComponent = ({ data }) => {
             marginBottom: "0",
           }}
         >
-          FREE cancellation • No prepayment needed
+          {cancellation} cancellation • {cancelationPolicy}
         </h5>
         <p
           style={{
@@ -68,7 +70,7 @@ const DataComponent = ({ data }) => {
           You can cancel later, so lock in this great price today!
         </p>
         <h5 style={{ color: "brown", padding: "0", marginTop: "2px" }}>
-          Only 6 rooms left at this price on our site
+          Only {availableRooms} rooms left at this price on our site
         </h5>
       </div>
       <div>
@@ -85,19 +87,21 @@ const DataComponent = ({ data }) => {
                 fontSize: "13px",
               }}
             >
-              87 Reviews
+              {reviews} Reviews
             </p>
           </div>
           <div
             style={{
               backgroundColor: "#003580",
               color: "white",
-              padding: "8px",
-              width: "20px",
-              borderRadius: "5px 5px 5px 0",
+              padding: "10px",
+              marginLeft: "5px",
+              // width: "30px",
+              fontWeight: "bold",
+              borderRadius: "5px 5px 5px 5px",
             }}
           >
-            8.7
+            {rating}
           </div>
         </div>
 
@@ -120,9 +124,9 @@ const DataComponent = ({ data }) => {
                 fontSize: "14px",
               }}
             >
-              ₹ 1,03
+              ₹ {price}
             </span>
-            <span style={{ fontSize: "22px", fontWeight: "600" }}>₹ 1,030</span>
+            <span style={{ fontSize: "22px", fontWeight: "600" }}>₹ {discountedPrice}</span>
           </p>
           <p
             style={{

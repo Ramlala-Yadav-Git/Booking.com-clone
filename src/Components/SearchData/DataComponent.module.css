@@ -1,13 +1,15 @@
 .maindiv{
-    border:1px solid gray;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* border:1px solid gray; */
+    box-shadow: rgba(170, 160, 160, 0.24) 0px 3px 8px;
     padding: 11px;
     border-radius: 4px;
-    width: 50%;
+    /* width: 50%; */
     display: grid;
     grid-template-columns: 26% 50% 22%;
     grid-gap: 1%;
-    min-width: 50%;
+    /* width: 80%; */
+    margin-bottom:20px ;
+
 }
 
 @media only screen and (max-width: 1300px) {

@@ -1,4 +1,4 @@
-import { fontWeight } from "@material-ui/system";
+// import { fontWeight } from "@material-ui/system";
 import React from "react";
 import FooterWhite from "./FooterWhite";
 
@@ -10,7 +10,7 @@ const input1 = {
   borderRadius: "4px",
   fontSize: "20px",
   fontWeight: "100",
-  paddingLeft: "8px"
+  paddingLeft: "8px",
 };
 const label = { color: "white", fontSize: "17px", padding: "0", margin: "0" };
 const button = {
@@ -52,6 +52,7 @@ const FooterBlue = () => {
           marginTop: "50px",
           backgroundColor: "#00224F",
           padding: "30px",
+          textAlign: "center"
         }}
       >
         <p style={p1}>Save time, save money!</p>
@@ -61,7 +62,7 @@ const FooterBlue = () => {
           <button style={button}>Subscribe</button>
         </div>
         <input type="checkbox" id="c1" />
-        <label style={label} for="c1">
+        <label style={label} forhtml="c1">
           Send me a link to get the FREE Booking.com app!
         </label>
       </div>
@@ -81,6 +82,9 @@ const FooterBlue = () => {
             color: "white",
             borderRadius: "4px",
             cursor: "pointer",
+            textAlign: "center",
+            margin: "auto",
+            marginLeft: "50%"
           }}
         >
           List your property

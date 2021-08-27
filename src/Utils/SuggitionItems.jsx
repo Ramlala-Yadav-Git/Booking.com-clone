@@ -1,5 +1,29 @@
 export const countries = [
     {
+        country: "Delhi",
+        city: "Delhi"
+    },
+    {
+        country: "Pune",
+        city: "Pune"
+    },
+    {
+        country: "Mumbai",
+        city: "Mumbai"
+    },
+    {
+        country: "Gurgaon",
+        city: "Gurgaon"
+    },
+    {
+        country: "Bangalore",
+        city: "Bangalore"
+    },
+    {
+        country: "Jaipur",
+        city: "Jaipur"
+    },
+    {
         country: "Afghanistan",
         city: "Kabul",
     },

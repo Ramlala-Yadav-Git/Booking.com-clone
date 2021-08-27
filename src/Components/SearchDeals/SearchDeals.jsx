@@ -1,10 +1,11 @@
 import styles from "./SearchDeals.module.css"
 import React from "react"
 import Calendar from 'react-calendar';
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { countries } from "../../Utils/SuggitionItems";
 import 'react-calendar/dist/Calendar.css';
 import { Searchbar } from "./Suggestion/Searchbar";
+import { Link } from "react-router-dom";
 
 
 export const SearchDeals = () => {
@@ -296,7 +297,10 @@ export const SearchDeals = () => {
             </div>
 
             <div className={styles.button}>
-                <button>Search</button>
+                <Link to="/search">
+
+                    <button>Search</button>
+                </Link>
             </div>
         </div>
         <div className={styles.lowerText}>
@@ -309,43 +313,7 @@ export const SearchDeals = () => {
 
 
 
-// function currentDatePicker(D, M, day) {
-//     var month = [];
-//     for (let i = 0; i < 12; i++) {
-//         month.push(0)
-//     }
-//     month[0] = "Jan";
-//     month[1] = "Feb";
-//     month[2] = "March";
-//     month[3] = "Apr";
-//     month[4] = "May";
-//     month[5] = "June";
-//     month[6] = "July";
-//     month[7] = "Aug";
-//     month[8] = "Sept";
-//     month[9] = "Oct";
-//     month[10] = "Nov";
-//     month[11] = "Dec";
 
-//     var weekday = [];
-//     for (let i = 0; i < 7; i++) {
-//         weekday.push(0)
-//     }
-//     weekday[0] = "Sun";
-//     weekday[1] = "Mon";
-//     weekday[2] = "Tue";
-//     weekday[3] = "Wed";
-//     weekday[4] = "Thur";
-//     weekday[5] = "Fri";
-//     weekday[6] = "Sat";
-//     var currentDay = weekday[D];
-
-//     var currentMonth = month[M];
-
-//     // var currentDayNum = day
-
-//     return [currentMonth, currentDay, day]
-// }
 
 function endDatePicker(D, M, day) {
     var month = [];

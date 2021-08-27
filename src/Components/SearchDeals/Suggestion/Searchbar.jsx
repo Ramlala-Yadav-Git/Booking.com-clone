@@ -76,7 +76,7 @@ box-shadow: 2px 2px 2px 2px #7c787849;
     /* padding: 10px;  */
     padding-left: 20px;
     padding-top:10px;
-    padding-bottom:30px;
+    padding-bottom:10px;
 }
 
 &>div:nth-child(${({ active }) => active}){
