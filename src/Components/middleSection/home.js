@@ -14,7 +14,7 @@ function FirstPage(){
     return(
        <div>
 
-        <div className="Main">
+        <div className="main">
 
             <div className="things">
 
