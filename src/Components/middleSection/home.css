@@ -5,12 +5,13 @@
 }
 
 .main{
-    width: 100%;
+    width: 80%;
+    margin:auto;
 }
 
 .things{
  margin-top: 2vw;
- margin-left:8vw;
+ /* margin-left:8vw; */
  display: grid;
  grid-template-columns: 20vw 20vw 20vw;
  grid-auto-rows: 6vw;
@@ -52,7 +53,7 @@
 
 .Cities{
     margin-top: 2vw;
-    margin-left: 8vw;
+    /* margin-left: 8vw; */
     display: grid;
     grid-template-columns: 38vw 38vw ;
     grid-auto-rows: 18vw;
@@ -96,15 +97,18 @@
 
 .citythree{
     margin-top: 2vw;
-    margin-left: 8vw;
+    /* margin-left: 8vw; */
     display: grid;
-    grid-template-columns: 25.33vw 25.33vw 25.33vw ;
+    grid-template-columns: 25vw 25vw 25vw ;
     grid-auto-rows: 12vw;
     grid-gap: 1vw;
     cursor: pointer;
     /* height: 270px; */
+    margin-bottom: 20px;
 }
 
 .citythree img{
-    width: 100%;    
+    width:100%;
+    height: 250px;
 }
+
