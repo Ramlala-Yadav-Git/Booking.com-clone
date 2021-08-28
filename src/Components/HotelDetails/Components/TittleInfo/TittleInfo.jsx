@@ -1,0 +1,302 @@
+import styled from 'styled-components'
+import Star from './Star'
+import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
+import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import ShareIcon from '@material-ui/icons/Share';
+import RoomIcon from '@material-ui/icons/Room';
+const Cont = styled.div`
+display:grid;
+grid-template-columns: 70% 30%;
+
+`
+const P = styled.p`
+font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    vertical-align: middle;
+  
+    padding: 0 4px;
+    border-radius: 3px;
+    background: #aeaeae;
+    color: #fff;
+    display: inline;`
+
+const Name = styled.h1`
+color: #262626;
+display: inline;
+font-size:25px;
+font-weight:700;
+line-height: 28px;
+margin:0;
+margin-left:5px;
+
+`
+const NameDiv = styled.div`
+display:flex;
+align-items: center;
+P{
+    margin:0;
+}
+`
+const Info = styled.div`
+display:flex;
+align-items:center;
+margin-top:10px;
+flex-wrap: wrap;
+`
+const Thumb = styled.div`
+width:21px;
+height:21px;
+background-color:#FEBB02;
+margin-left:5px;
+`
+
+const RightDiv = styled.div`
+align-items:center;
+display:grid;
+justify-content:flex-end;
+margin-top:10px;
+>div{
+    display:flex;
+    justify-content:flex-end;
+
+  	align-items: center;
+      
+
+      img{
+          display:block;
+          width:16px; height:16px;
+      }
+
+}
+
+`
+
+const Reserve = styled.div`
+box-sizing: border-box;
+    vertical-align: middle;
+
+    
+    min-height: 36px;
+    min-width: 36px;
+   
+    border-radius: 2px;
+ 
+    justify-content: center;
+    text-align: left;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: #0071c2;
+    border: 1px solid #0071c2;
+    border-radius: 2px;
+    margin-left:20px;
+    p{
+        margin:0;
+        font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color:#ffff;
+    }
+    
+`
+
+const Tag = styled.div`
+  display:flex;
+    justify-content:flex-end;
+
+  	align-items: center;
+
+p{
+    font-style: italic;
+    color: #333!important;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: right;
+    margin-left: 5px;
+    font-size:12px;
+}
+
+
+`
+
+const Map = styled.div`
+display:flex;
+align-items: center;
+`
+const MapInfo = styled.p`
+margin:0;
+font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #262626;
+`
+
+const ShowMap = styled.p`
+    cursor: pointer;
+    color: #0071c2;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left : 10px;
+`
+const ImageDiv = styled.div`
+
+display:grid;
+width: 100%;
+grid-template-areas: "short1 long"
+                    "short2 long";
+
+grid-template-columns:33% 66%;
+grid-template-rows:170px 170px;
+grid-gap:10px;
+
+
+`
+const ShortImage = styled.div`
+
+>img{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+`
+
+const LargeImage = styled.div`
+grid-area:"long";
+>img{
+    width:100%;
+    height:100%;
+    object-fit: fill;
+}
+` 
+
+const Container = styled.div`
+width: 100%;`
+
+const FlexDiv = styled.div`
+display:flex;
+margin-top:10px;
+justify-content:space-between;
+`
+
+const ImageBox = styled.div`
+background-size: auto;
+background-position: center;
+width:18.5%;
+height: 110px;
+position: relative;
+display:flex;
+justify-content:center;
+align-items: center;
+
+
+ 
+`
+
+const Text = styled.div`
+
+p{
+    color:#ffff;
+    font-size:1.1rem;
+    font-weight:700;
+}
+
+`
+export const TitleInfo = (props) => {
+    return (
+
+    <Container>
+        <Cont>
+            <Info>
+            <NameDiv>
+
+               <P> {props.type}</P>
+               <Name>{props.name}</Name>
+               
+         
+            </NameDiv>
+            <Star num = "5"/>
+            <Thumb>
+
+            <ThumbUpAltIcon style = {{color:"#ffff", fontSize:19}}/>
+            </Thumb>
+
+            <Map>
+               <RoomIcon style = {{color:"#3c79cf" , marign :"0px"}}/>
+            <MapInfo>{props.address}</MapInfo>               
+
+
+            </Map>
+
+            <ShowMap>
+                Show map 
+
+            </ShowMap>
+
+            
+            
+            
+            </Info>
+            
+            <RightDiv>
+
+                <div>
+                <FavoriteBorderIcon style = {{color:"#3c79cf"}}/>
+                <ShareIcon style = {{color:"#3c79cf" , marginLeft:"10px"}}/>
+                <Reserve>
+                    <p>
+                    Reserve
+                    </p>
+                    
+                </Reserve>
+
+
+                </div>
+
+                <Tag>
+                <img src = "https://cf.bstatic.com/static/img/bpg/bpg_logo_retina/b4785e81dfbdb3907f75887373d5920d3dc3b245.png" alt = "tag"/>
+                    <p>We Price Match</p>
+
+                </Tag>
+
+
+            </RightDiv>
+
+
+          
+            
+        </Cont>
+        <ImageDiv>
+
+<ShortImage style = {{gridArea:"short1"}}>
+    <img src = "https://cf.bstatic.com/xdata/images/hotel/max500/276932297.jpg?k=f73c9b63907c36632e727cd66346b2c3ec7a0b106d9bd65063979f0fe116b9de&o=&hp=1" alt = "check"/>
+</ShortImage>
+<ShortImage style = {{gridArea:"short2"}}>
+    <img src = "https://cf.bstatic.com/xdata/images/hotel/max500/93483033.jpg?k=710aa4e3dc2e9512f5feceba26d45c136ca9e845f6f972628872a5f9230a4776&o=&hp=1" alt = "check"/>
+</ShortImage>
+<LargeImage style = {{gridArea:"long"}}>
+<img src = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22148091.jpg?k=8e72018a82b250dafcd1c1e50ff2eb822a9ecea85d98df5861775429a262e983&o=&hp=1" alt = "check"/>
+</LargeImage>
+
+
+</ImageDiv>
+
+            <FlexDiv>
+
+                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
+                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
+                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
+                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
+                <ImageBox style = {{background:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${props.img})`}}>
+                       <Text> <p>+32photos</p>
+                   </Text>
+                </ImageBox>
+
+
+             
+
+            </FlexDiv>
+
+        </Container>
+    )
+}
