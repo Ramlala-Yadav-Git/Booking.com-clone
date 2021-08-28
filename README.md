@@ -29,7 +29,7 @@ npm start
 ```
 
 
-# Authors
+# Contributers
 
 - [@vishnusankar95](https://github.com/vishnusankar95)
 - [@Rakesh-pilly](https://github.com/Rakesh-pilly)
