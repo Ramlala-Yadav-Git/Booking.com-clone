@@ -12,9 +12,9 @@ import styles from "./SearchRequest.module.css"
 export const SearchPage = () => {
 
     const [showData, setShowData] = useState(HotelData)
-    const [price, setPrice] = useState(false)
-    const [star, setStar] = useState(false)
-    const [policy, setPolicy] = useState(false)
+    // const [price, setPrice] = useState(false)
+    // const [star, setStar] = useState(false)
+    // const [policy, setPolicy] = useState(false)
 
 
     const filterPrice = (e) => {
@@ -120,6 +120,7 @@ export const SearchPage = () => {
                             price={e.price}
                             discountedPrice={e.discountedPrice}
                             id={e.id}
+                            view={e.view}
                         />
 
 

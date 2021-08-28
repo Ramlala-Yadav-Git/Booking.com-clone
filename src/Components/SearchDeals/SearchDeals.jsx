@@ -23,7 +23,7 @@ export const SearchDeals = () => {
     const [rooms, setRooms] = useState(2)
 
     const [query, setQuery] = React.useState("");
-    const [loading, setLoading] = React.useState(false);
+    const [, setLoading] = React.useState(false);
     const [suggestions, setSuggestions] = React.useState([]);
     React.useEffect(() => {
         if (query === "") {

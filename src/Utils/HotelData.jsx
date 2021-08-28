@@ -17,6 +17,7 @@ export const HotelData = [
         discountedPrice: 800,
         distance: 2,
         id: 1,
+        view: "Very Good"
 
     },
     {
@@ -35,7 +36,9 @@ export const HotelData = [
         price: 930,
         discountedPrice: 700,
         distance: 3,
-        id: 2
+        id: 2,
+        view: "Good"
+
 
 
     },
@@ -55,7 +58,9 @@ export const HotelData = [
         price: 930,
         discountedPrice: 700,
         distance: 3,
-        id: 3
+        id: 3,
+        view: "Very Good"
+
 
 
     },
@@ -75,7 +80,9 @@ export const HotelData = [
         price: 300,
         discountedPrice: 290,
         distance: 1,
-        id: 4
+        id: 4,
+        view: "Good"
+
 
 
     },
@@ -95,7 +102,8 @@ export const HotelData = [
         price: 1930,
         discountedPrice: 1500,
         distance: 5,
-        id: 5
+        id: 5,
+        view: "Very Good"
 
 
     },
@@ -115,7 +123,9 @@ export const HotelData = [
         price: 1230,
         discountedPrice: 1200,
         distance: 8,
-        id: 6
+        id: 6,
+        view: "Very Good"
+
 
 
     },
@@ -135,7 +145,8 @@ export const HotelData = [
         price: 530,
         discountedPrice: 500,
         distance: 4,
-        id: 7
+        id: 7,
+        view: "Good"
 
 
     },
@@ -155,7 +166,9 @@ export const HotelData = [
         price: 930,
         discountedPrice: 700,
         distance: 3,
-        id: 8
+        id: 8,
+        view: "Good"
+
 
 
     },
@@ -175,7 +188,9 @@ export const HotelData = [
         price: 1230,
         discountedPrice: 900,
         distance: 0.5,
-        id: 9
+        id: 9,
+        view: "Good"
+
 
 
     },
@@ -195,7 +210,9 @@ export const HotelData = [
         price: 1000,
         discountedPrice: 800,
         distance: 3,
-        id: 10
+        id: 10,
+        view: "Very Good"
+
 
 
     },
@@ -215,7 +232,9 @@ export const HotelData = [
         price: 930,
         discountedPrice: 700,
         distance: 3,
-        id: 11
+        id: 11,
+        view: "Very Good"
+
 
 
     },
