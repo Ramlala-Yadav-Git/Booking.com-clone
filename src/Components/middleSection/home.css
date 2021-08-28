@@ -32,9 +32,17 @@
     line-height: 18px;
 }
 
-/* .imglog{
+.imglog {
 
-} */
+display: flex;
+justify-content: center;
+/* align-items: center; */
+margin-top: 20px;
+/* margin-left: 5px; */
+height: 100%;
+width: 100%;
+}
+
 
 .rentCar{
     width: 100%;
@@ -45,12 +53,20 @@
     color: inherit;
     cursor: pointer;
 
-    padding-top: .5vw;
+    /* padding-top: .5vw; */
+    padding-right: 15px;
     display: grid;
     grid-template-columns: 5vw 20vw ;
     grid-auto-rows: 7vw;
+    /* grid-gap: 15px; */
 }
-
+.margin{
+    margin-top: 10px;
+}
+.margin p{
+    margin: 0px;
+    
+}
 .Cities{
     margin-top: 2vw;
     /* margin-left: 8vw; */

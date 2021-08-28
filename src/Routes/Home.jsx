@@ -5,6 +5,7 @@ import { Navbar } from "../Components/Navbar/Navbar"
 import { SearchDeals } from "../Components/SearchDeals/SearchDeals"
 import { HomeGuestsDiv } from "../Components/HomeGuests/HomeGuestsDiv"
 import { NextTrip } from "../Components/NextTripDiv/NextTrip"
+import { MiddleSection } from "../Components/middleSection/MiddleSection"
 
 
 
@@ -16,6 +17,7 @@ export const Home = () => {
     return <>
         <Navbar />
         <SearchDeals />
+        <MiddleSection />
         <NextTrip />
         <HomeGuestsDiv />
         <Degination />

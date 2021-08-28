@@ -1,20 +1,24 @@
 .corosel{
   margin-top: 6vw;
-  width: 80%;
-  margin-left: 9vw;
+  width: 91%;
+  margin-left: 4vw;
 }
 
 .browsH2{
-  margin-left: 1vw;
+  margin-left: 5.5vw;
   font-size: 24px;
+  margin-bottom: -30px;
+  margin-top: 100px;
   font-weight: 700;
   line-height: 32px;
-  color:#333333;
+  color:#4d4949;
 }
 
 .browsimg{
   height: 180px;
   width:17vw;
+  margin-bottom: 15px;
+  text-align: left;
 }
 
 .rec.rec-arrow:hover {
@@ -30,6 +34,7 @@
 .diver{
   position: absolute;
   padding: 16px 0 0;
+  text-align: left;
 }
 
 .subhead{
@@ -38,6 +43,7 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
+  text-align: left;
 }
 
 .bbrowssub{
