@@ -86,7 +86,7 @@ export const SearchPage = () => {
     const filterSearch = (search) => {
 
         const filteredData = HotelData.filter((e) => {
-            return (e.city.toLowerCase().includes(search.toLowerCase()))
+            return (e.name.toLowerCase().includes(search.toLowerCase()))
         })
         setShowData(filteredData)
     }

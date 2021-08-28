@@ -16,7 +16,6 @@ export const Home = () => {
     return <>
         <Navbar />
         <SearchDeals />
-
         <NextTrip />
         <HomeGuestsDiv />
         <Degination />
