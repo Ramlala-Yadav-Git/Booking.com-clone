@@ -64,18 +64,18 @@ p{
 export const ImageContainer = (props) => {
 
     return (
-        <Cont style = {{width: props.wide}}>
-            <Background style = {{ backgroundImage: `url(${props.img})`}}>
-           
+        <Cont style={{ width: props.wide }}>
+            <Background style={{ backgroundImage: `url(${props.img})` }}>
+
             </Background>
             <Text>
-            {props.children}
+                {props.children}
 
             </Text>
-           
-            
 
-            
+
+
+
         </Cont>
     )
 }

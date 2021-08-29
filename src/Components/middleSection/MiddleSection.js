@@ -42,7 +42,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Hotels</h4>
-              <p xl className="bbrowssub">802,405 hotels</p>
+              <p className="bbrowssub">802,405 hotels</p>
             </div>
 
 
@@ -54,7 +54,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Appartment</h4>
-              <p xl className="bbrowssub">807,884 apartments</p>
+              <p className="bbrowssub">807,884 apartments</p>
             </div>
           </Item>
 
@@ -64,7 +64,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Resort</h4>
-              <p xl className="bbrowssub">17,482 resorts</p>
+              <p className="bbrowssub">17,482 resorts</p>
             </div>
 
           </Item>
@@ -75,7 +75,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Villas</h4>
-              <p xl className="bbrowssub">406,281 villas</p>
+              <p className="bbrowssub">406,281 villas</p>
             </div>
 
           </Item>
@@ -86,7 +86,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Cabins</h4>
-              <p xl className="bbrowssub">31,734 cabins</p>
+              <p className="bbrowssub">31,734 cabins</p>
             </div>
 
           </Item>
@@ -97,7 +97,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Cottages</h4>
-              <p xl className="bbrowssub">142,790 cottages</p>
+              <p className="bbrowssub">142,790 cottages</p>
             </div>
 
           </Item>
@@ -108,7 +108,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Serviced Appartment</h4>
-              <p xl className="bbrowssub">33,743 serviced apartments</p>
+              <p className="bbrowssub">33,743 serviced apartments</p>
             </div>
 
           </Item>
@@ -119,7 +119,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Holidayhomes</h4>
-              <p xl className="bbrowssub">406,281 holiday homes</p>
+              <p className="bbrowssub">406,281 holiday homes</p>
             </div>
 
           </Item>
@@ -130,7 +130,7 @@ function MiddleSection() {
             </div>
             <div className="diver">
               <h4 className="subhead">Guesthomes</h4>
-              <p xl className="bbrowssub"></p>
+              <p className="bbrowssub"></p>
             </div>
 
           </Item>

@@ -1,3 +1,5 @@
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Div = styled.div`
@@ -6,16 +8,18 @@ margin-bottom:20px;
 
 `
 const H1 = styled.div`
-    font-size: 24px;
+    font-size: 21px;
     line-height: 32px;
     font-weight: 600;
     color: #333;
     margin:10px 0;
 
     `
-    const Cont = styled.div`
+const Cont = styled.div`
     width: 94%;
-    border: 1px solid lightGray;
+    border: 1px solid #ccc7c7a6;
+    border-radius: 3px;
+
     padding:3%;
     display:grid;
     grid-template-columns: 50% 50%;
@@ -26,7 +30,7 @@ const H1 = styled.div`
     }
     `
 
-    const DataDiv = styled.div`
+const DataDiv = styled.div`
     p{
         margin: 0 0 4px;
     font-size: 14px;
@@ -47,7 +51,7 @@ const H1 = styled.div`
     
     
     `
-    const Last = styled.div`
+const Last = styled.div`
         color: #6b6b6b;
         display: block;
     font-size: 14px;
@@ -55,13 +59,13 @@ const H1 = styled.div`
     line-height: 20px;
     `
 
-    const FelxDiv = styled.div`
+const FelxDiv = styled.div`
     display:flex;
     justify-content: space-around;
     align-items: center;
     `
 
-const Line  = styled.div`
+const Line = styled.div`
 border-left:1px solid lightGray;
 height:40px;
 `
@@ -102,15 +106,20 @@ img{
 
 
 `
-export const Availability = ()=>{
+export const Availability = () => {
+    const [reserve, setReserve] = useState(false)
+    const handleClick = () => {
+        setReserve(!reserve)
+        alert("Congratulations! You Rooms has been booked successfully ")
+    }
 
     return (
         <Div>
 
-            <div style = {{display:"flex", justifyContent: "space-between"}}>
-            <H1>Availability</H1>
-            <Tag>
-                <img src = "https://cf.bstatic.com/static/img/bpg/bpg_logo_retina/b4785e81dfbdb3907f75887373d5920d3dc3b245.png" alt = "tag"/>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                <H1>Availability</H1>
+                <Tag>
+                    <img src="https://cf.bstatic.com/static/img/bpg/bpg_logo_retina/b4785e81dfbdb3907f75887373d5920d3dc3b245.png" alt="tag" />
                     <p>We Price Match</p>
 
                 </Tag>
@@ -120,38 +129,43 @@ export const Availability = ()=>{
             <Cont>
 
                 <FelxDiv>
-                <DataDiv>
-                    <p>Check-in data</p>
-                    <h1>Tue, Aug 31, 2021</h1>
-                    <Last>From 2:00 PM</Last>
+                    <DataDiv>
+                        <p>Check-in data</p>
+                        <h1>Tue, Aug 31, 2021</h1>
+                        <Last>From 2:00 PM</Last>
 
-                </DataDiv>
-                <Line/>
+                    </DataDiv>
+                    <Line />
 
-                <DataDiv>
-                    <p>Check-out data</p>
-                    <h1>Tue, spet 21, 2021</h1>
-                    <Last>2-week stay</Last>
+                    <DataDiv>
+                        <p>Check-out data</p>
+                        <h1>Tue, spet 21, 2021</h1>
+                        <Last>2-week stay</Last>
 
-                </DataDiv>
+                    </DataDiv>
 
 
                 </FelxDiv>
 
                 <FelxDiv>
-                <DataDiv>
-                    <p>Guests</p>
-                    <h1>2 adults</h1>
-                    
+                    <DataDiv>
+                        <p>Guests</p>
+                        <h1>2 adults</h1>
 
-                </DataDiv>
 
-                <Button>
-                    Change search</Button>
+                    </DataDiv>
+
+                    <Button onClick={handleClick}>
+                        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
+                            {
+                                !reserve ? "Reserve" : "Reserved"
+                            }
+                        </Link>
+                    </Button>
                 </FelxDiv>
 
-                
-                
+
+
 
 
 

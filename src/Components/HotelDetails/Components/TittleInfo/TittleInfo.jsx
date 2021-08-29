@@ -4,6 +4,7 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ShareIcon from '@material-ui/icons/Share';
 import RoomIcon from '@material-ui/icons/Room';
+import { Link } from 'react-router-dom';
 const Cont = styled.div`
 display:grid;
 grid-template-columns: 70% 30%;
@@ -168,7 +169,7 @@ grid-area:"long";
     height:100%;
     object-fit: fill;
 }
-` 
+`
 
 const Container = styled.div`
 width: 100%;`
@@ -203,97 +204,105 @@ p{
 
 `
 export const TitleInfo = (props) => {
+    const handleClick = () => {
+        alert("Congratulations! You Rooms has been booked successfully ")
+    }
     return (
 
-    <Container>
-        <Cont>
-            <Info>
-            <NameDiv>
+        <Container>
+            <Cont>
+                <Info>
+                    <NameDiv>
 
-               <P> {props.type}</P>
-               <Name>{props.name}</Name>
-               
-         
-            </NameDiv>
-            <Star num = "5"/>
-            <Thumb>
-
-            <ThumbUpAltIcon style = {{color:"#ffff", fontSize:19}}/>
-            </Thumb>
-
-            <Map>
-               <RoomIcon style = {{color:"#3c79cf" , marign :"0px"}}/>
-            <MapInfo>{props.address}</MapInfo>               
+                        <P> {props.type}</P>
+                        <Name>{props.name}</Name>
 
 
-            </Map>
+                    </NameDiv>
+                    <Star num="5" />
+                    <Thumb>
 
-            <ShowMap>
-                Show map 
+                        <ThumbUpAltIcon style={{ color: "#ffff", fontSize: 19 }} />
+                    </Thumb>
 
-            </ShowMap>
-
-            
-            
-            
-            </Info>
-            
-            <RightDiv>
-
-                <div>
-                <FavoriteBorderIcon style = {{color:"#3c79cf"}}/>
-                <ShareIcon style = {{color:"#3c79cf" , marginLeft:"10px"}}/>
-                <Reserve>
-                    <p>
-                    Reserve
-                    </p>
-                    
-                </Reserve>
+                    <Map>
+                        <RoomIcon style={{ color: "#3c79cf", marign: "0px" }} />
+                        <MapInfo>{props.address}</MapInfo>
 
 
-                </div>
+                    </Map>
 
-                <Tag>
-                <img src = "https://cf.bstatic.com/static/img/bpg/bpg_logo_retina/b4785e81dfbdb3907f75887373d5920d3dc3b245.png" alt = "tag"/>
-                    <p>We Price Match</p>
+                    <ShowMap>
+                        Show map
 
-                </Tag>
-
-
-            </RightDiv>
+                    </ShowMap>
 
 
-          
-            
-        </Cont>
-        <ImageDiv>
-
-<ShortImage style = {{gridArea:"short1"}}>
-    <img src = "https://cf.bstatic.com/xdata/images/hotel/max500/276932297.jpg?k=f73c9b63907c36632e727cd66346b2c3ec7a0b106d9bd65063979f0fe116b9de&o=&hp=1" alt = "check"/>
-</ShortImage>
-<ShortImage style = {{gridArea:"short2"}}>
-    <img src = "https://cf.bstatic.com/xdata/images/hotel/max500/93483033.jpg?k=710aa4e3dc2e9512f5feceba26d45c136ca9e845f6f972628872a5f9230a4776&o=&hp=1" alt = "check"/>
-</ShortImage>
-<LargeImage style = {{gridArea:"long"}}>
-<img src = "https://cf.bstatic.com/xdata/images/hotel/max1024x768/22148091.jpg?k=8e72018a82b250dafcd1c1e50ff2eb822a9ecea85d98df5861775429a262e983&o=&hp=1" alt = "check"/>
-</LargeImage>
 
 
-</ImageDiv>
+                </Info>
+
+                <RightDiv>
+
+                    <div>
+                        <FavoriteBorderIcon style={{ color: "#3c79cf" }} />
+                        <ShareIcon style={{ color: "#3c79cf", marginLeft: "10px" }} />
+                        <Reserve>
+
+                            <p onClick={handleClick}>
+                                <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+                                    Reserve
+                                </Link>
+                            </p>
+
+                        </Reserve>
+
+
+                    </div>
+
+                    <Tag>
+                        <img src="https://cf.bstatic.com/static/img/bpg/bpg_logo_retina/b4785e81dfbdb3907f75887373d5920d3dc3b245.png" alt="tag" />
+                        <p>We Price Match</p>
+
+                    </Tag>
+
+
+                </RightDiv>
+
+
+
+
+            </Cont>
+            <ImageDiv>
+
+                <ShortImage style={{ gridArea: "short1" }}>
+                    <img src={`${props.url_1}`} alt="check" />
+                </ShortImage>
+                <ShortImage style={{ gridArea: "short2" }}>
+                    <img src={`${props.url_2}`} alt="check" />
+
+                </ShortImage>
+                <LargeImage style={{ gridArea: "long" }}>
+                    <img src={`${props.url_3}`} alt="check" />
+
+                </LargeImage>
+
+
+            </ImageDiv>
 
             <FlexDiv>
 
-                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
-                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
-                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
-                <ImageBox style = {{backgroundImage:`url(${props.img})`}}/>
-                <ImageBox style = {{background:`linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${props.img})`}}>
-                       <Text> <p>+32photos</p>
-                   </Text>
+                <ImageBox style={{ backgroundImage: `url(${props.url_5})` }} />
+                <ImageBox style={{ backgroundImage: `url(${props.url_6})` }} />
+                <ImageBox style={{ backgroundImage: `url(${props.url_7})` }} />
+                <ImageBox style={{ backgroundImage: `url(${props.url_8})` }} />
+                <ImageBox style={{ background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(${props.img})` }}>
+                    <Text> <p>+32photos</p>
+                    </Text>
                 </ImageBox>
 
 
-             
+
 
             </FlexDiv>
 

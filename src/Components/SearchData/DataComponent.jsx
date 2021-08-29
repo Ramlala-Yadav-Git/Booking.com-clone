@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../SearchData/DataComponent.module.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -138,19 +139,21 @@ const DataComponent = ({ url, id, view, price, name, city, distance, bedSize, ro
           >
             tax and all
           </p>
-          <button
-            style={{
-              backgroundColor: "#0071C2",
-              color: "white",
-              border: "none",
-              borderRadius: "3px",
-              padding: "15px",
-              marginTop: "10px",
-              cursor: "pointer",
-            }}
-          >
-            {lab}
-          </button>
+          <Link to={`/search/${id}`}>
+            <button
+              style={{
+                backgroundColor: "#0071C2",
+                color: "white",
+                border: "none",
+                borderRadius: "3px",
+                padding: "15px",
+                marginTop: "10px",
+                cursor: "pointer",
+              }}
+            >
+              {lab}
+            </button>
+          </Link>
         </div>
       </div>
     </div>
