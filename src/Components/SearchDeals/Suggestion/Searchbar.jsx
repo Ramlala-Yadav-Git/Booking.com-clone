@@ -62,7 +62,7 @@ flex:0 0 auto;
 max-height: 300px;
 overflow: auto;
 overflow-y: hidden;
-top: 325px;
+top: 350px;
 left: 159px;
 border-radius: 10px;
 width: 359px;
