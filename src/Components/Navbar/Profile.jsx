@@ -20,6 +20,8 @@ export const Profile = () => {
         localStorage.removeItem("login")
         alert("Successfully Logged Out")
         document.location.href = "http://localhost:3000"
+        // document.location.href = "https://booking-webapp-clone.herokuapp.com/"
+
     }
 
     return <>

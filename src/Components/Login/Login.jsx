@@ -25,7 +25,8 @@ const Login = () => {
       let data = JSON.parse(localStorage.getItem("login"));
       if (data) {
         alert("You have successfully Logged In")
-        document.location.href = "https://booking-webapp-clone.herokuapp.com";
+        // document.location.href = "https://booking-webapp-clone.herokuapp.com";
+        document.location.href = "http://localhost:3000/";
       }
     }, 1000)
 
