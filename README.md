@@ -77,4 +77,13 @@ React, Javascript, Material-UI, React-router-dom, Axios, Styled-components, Json
 ## Feedback
 
 If you have any feedback, please reach out to us at
-@masai.school or @masai.school or manish_nj2_103@masai.school
+
+ramlala_nj2_075@masai.school
+
+rakesh_nj2_106@masai.school
+
+Vishnu_nj2_010@masai.school 
+
+manish_nj2_103@masai.school
+
+
