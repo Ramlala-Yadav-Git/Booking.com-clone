@@ -17,16 +17,13 @@ const Login = () => {
 
 
   const responseGoogle = (res) => {
-    // console.log(res);
     let data = { ...res.profileObj, events: {} };
-    // console.log(data);
     localStorage.setItem("login", JSON.stringify(data));
     setTimeout(() => {
       let data = JSON.parse(localStorage.getItem("login"));
       if (data) {
         alert("You have successfully Logged In")
-        // document.location.href = "https://booking-webapp-clone.herokuapp.com";
-        document.location.href = "http://localhost:3000/";
+        document.location.href = "https://booking-com.netlify.app/";
       }
     }, 1000)
 
