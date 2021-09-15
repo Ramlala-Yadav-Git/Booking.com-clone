@@ -25,7 +25,7 @@ const Login = () => {
         alert("You have successfully Logged In")
         document.location.href = "https://booking-com.netlify.app/";
       }
-    }, 1000)
+    }, 2000)
 
   };
 
