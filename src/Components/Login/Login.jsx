@@ -22,10 +22,10 @@ const Login = () => {
     setTimeout(() => {
       let data = JSON.parse(localStorage.getItem("login"));
       if (data) {
-        alert("You have successfully Logged In")
         document.location.href = "https://booking-com.netlify.app/";
+        alert("You have successfully Logged In")
       }
-    }, 2000)
+    }, 5000)
 
   };
 

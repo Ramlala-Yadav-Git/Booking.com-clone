@@ -18,8 +18,8 @@ export const Profile = () => {
     }
     const handleLogout = () => {
         localStorage.removeItem("login")
-        alert("Successfully Logged Out")
         document.location.href = "https://booking-com.netlify.app/"
+        alert("Successfully Logged Out")
         // document.location.href = "https://booking-webapp-clone.herokuapp.com/"
 
     }
