@@ -6,12 +6,17 @@ import { SearchDeals } from "../Components/SearchDeals/SearchDeals"
 import { HomeGuestsDiv } from "../Components/HomeGuests/HomeGuestsDiv"
 import { NextTrip } from "../Components/NextTripDiv/NextTrip"
 import { MiddleSection } from "../Components/middleSection/MiddleSection"
+import axios from "axios"
 
 
 
 
 export const Home = () => {
 
+    axios.get("https://manishsinghbhadouria.github.io/api/db.json").then((data) => {
+
+        console.log(data.data[0].discover);
+    })
 
 
     return <>
