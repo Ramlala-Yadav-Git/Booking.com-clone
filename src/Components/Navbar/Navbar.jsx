@@ -30,7 +30,7 @@ export const Navbar = () => {
 
 
 
-    return <>
+    return <> <div className={styles.main} >
         <div className={styles.navbarContainer}>
             <div className={styles.navbarUpperSection}>
                 <div>
@@ -135,6 +135,6 @@ export const Navbar = () => {
                 </ul>
             </div>
         </div>
-
+    </div>
     </>
 }

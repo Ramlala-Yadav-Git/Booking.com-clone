@@ -52,7 +52,12 @@ const FooterBlue = () => {
           marginTop: "50px",
           backgroundColor: "#00224F",
           padding: "30px",
-          textAlign: "center"
+          textAlign: "center",
+          width: "94vw",
+          marginLeft: "-8px ",
+          //  marginTop: "-8px" ,
+          overflowY: "hidden"
+
         }}
       >
         <p style={p1}>Save time, save money!</p>
@@ -71,7 +76,11 @@ const FooterBlue = () => {
           backgroundColor: "#003580",
           paddingTop: "20px",
           paddingBottom: "15px",
-          border: "none"
+          border: "none",
+          width: "98.4vw",
+          marginLeft: "-8px ",
+          //  marginTop: "-8px" ,
+          overflowY: "hidden",
         }}
       >
         <button

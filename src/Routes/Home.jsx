@@ -13,21 +13,21 @@ import axios from "axios"
 
 export const Home = () => {
 
-    axios.get("https://manishsinghbhadouria.github.io/api/db.json").then((data) => {
 
-        console.log(data.data[0].discover);
-    })
 
 
     return <>
-        <Navbar />
-        <SearchDeals />
-        <MiddleSection />
-        <NextTrip />
-        <HomeGuestsDiv />
-        <Degination />
-        <Discover />
-        <FooterBlue />
+        <div >
 
+            <Navbar />
+            <SearchDeals />
+            <MiddleSection />
+            <NextTrip />
+            <HomeGuestsDiv />
+            <Degination />
+            <Discover />
+            <FooterBlue />
+
+        </div>
     </>
 }

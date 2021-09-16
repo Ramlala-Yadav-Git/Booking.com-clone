@@ -11,6 +11,7 @@ color: white;
 padding-top: 2%;
 padding-left: 10%;
 padding-right: 5%;
+/* width: 100%; */
 
 }
 .navbarUpperSection{
@@ -109,3 +110,10 @@ display: flex;
     text-decoration: none;
     color: white;
 }
+.main{
+width: 98.7vw ;
+margin-left: -8px ;
+ margin-top: -8px ;
+ overflow-y: hidden;
+}
+

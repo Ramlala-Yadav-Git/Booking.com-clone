@@ -13,7 +13,6 @@ const SearchBarWrapper = styled.div`
     align-items: center;
     position: relative;
     width: 280px;
-
     font-weight: 100;
     color: gray;
 `
@@ -62,8 +61,8 @@ flex:0 0 auto;
 max-height: 300px;
 overflow: auto;
 overflow-y: hidden;
-top: 350px;
-left: 159px;
+top: 52%;
+left: 12%;
 border-radius: 10px;
 width: 359px;
 z-index: 4;

@@ -10,13 +10,15 @@
     font-size: 120%;
     }
 .searchDealsContainer {
-    border: 1px solid rgba(211, 204, 204, 0.452);
+    border-bottom: 1px solid rgba(211, 204, 204, 0.452);
     background-color: rgb(245,245,245);
     padding-right: 10%;
     padding-left: 12%;
     padding-top: 3%;
     padding-bottom: 3%;
     margin:0px;
+    z-index: 10;
+
 }
 
 .searchDealsContainer > .uppertext > h3{
@@ -50,23 +52,7 @@
 .searchDealsContainer .searchDealsBars >.search .svgImg img{
   margin-top: 5px;
 }
-.searchDealsContainer .searchDealsBars > .search .input {
- /* border:none ;
- background-color: inherit;
- outline:none;
- width: 80%; */
-}
-.searchDealsContainer .searchDealsBars > .search input {
- /* border:none ;
- background-color: inherit;
- outline:none;
- width: 100%;
- font-size: 15px;
- font-weight: 500;
-  margin-top: 2px; */
 
-
-}
 .searchDealsContainer .searchDealsBars > .search .Cross .svgCross {
 margin-top: 2px;
 cursor: pointer;
@@ -76,10 +62,11 @@ fill: rgb(82, 80, 80);
 .searchDealsContainer .searchDealsBars > .calender{
     border-right: 4px solid rgb(254,187,2);
     width: 28%;
-    position: relative;
+    /* position: relative; */
     padding-top: 1.2%;
     padding-left: 1%;
     z-index: 5;
+
 }
 .searchDealsContainer .searchDealsBars > .calender .calenderPermnantItems{
 display: flex;
@@ -98,15 +85,20 @@ font-size: 15px;
 color:rgb(85, 84, 84) ;
 margin-right:7%;
 }
+
 .searchDealsContainer .searchDealsBars > .calender .calenderItem2{
    position: absolute;
-   top: 60px;
-   left: -35px;
+   top: 50%;
+   left: 35%;
+    z-index: 700;
+
 }
 .searchDealsContainer .searchDealsBars > .calender .calenderItem{
-     position: absolute;
-   top: 60px;
-   left: -35px;
+    position: absolute;
+   top: 50%;
+   left: 35%;
+    z-index: 700;
+
  
 
 }
@@ -153,7 +145,9 @@ color:rgb(85, 84, 84) ;
     padding: 1%;
     background-color: white;
     z-index: 4;
-    top: 350px;
+    top: 52%;
+   left: 57.5%;
+    z-index: 700;
     border-radius: 5px;
     box-shadow: 2px 2px 2px rgba(116, 115, 115, 0.445);
   
@@ -239,4 +233,9 @@ font-weight:500;
     font-size: 14px;
     color: rgb(107,107,107);
 }
-
+.main{
+width: 98.7vw ;
+margin-left: -8px ;
+ margin-top: -8px ;
+ overflow-y: hidden;
+}
