@@ -26,17 +26,17 @@ border-bottom:2px solid transparent;
 const ButtonGroup = styled.div`
   display: flex;
 `;
-const types = ['Regions' , 'Cities' , 'Place of interests'];
+const types = ['Regions', 'Cities', 'Place of interests'];
 export default function Degination() {
   const [active, setActive] = useState(types[0]);
   return (
     <div style={{
-        margin:"0 auto",
-        width:"80%",
-        textAlign:"left"
-      }}>
-    <h2>Destinations we love</h2>
-      <ButtonGroup style={{marginLeft:'1.3px'}}>
+      margin: "0 auto",
+      width: "80%",
+      textAlign: "left"
+    }}>
+      <h2>Destinations we love</h2>
+      <ButtonGroup style={{ marginLeft: '1.3px' }}>
         {types.map(type => (
           <Tab
             key={type}
@@ -47,8 +47,8 @@ export default function Degination() {
           </Tab>
         ))}
       </ButtonGroup>
-      <hr style={{border:"0.1px solid #0071C2",marginTop:"4px"}}/>
-      <DeginationData value={active}></DeginationData>
+      <hr style={{ border: "0.1px solid #0071C2", marginTop: "4px" }} />
+      <DeginationData v={active}></DeginationData>
     </div>
   );
 }

@@ -2,20 +2,20 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 // import useTimeout from '../Hooks/useTimeout'
 
-const DeginationData = ({ value }) => {
+const DeginationData = ({ v }) => {
     const [data, setData] = useState([])
 
     useEffect(() => {
         getData()
-    }, [value])
+    }, [v])
     /// const { data } = useFetch(`http://localhost:3001/${page}`);
     const getData = () => {
         axios.get("https://manishsinghbhadouria.github.io/api/db.json").then((data) => {
 
-            if (value === 'Regions') {
+            if (v === 'Regions') {
                 setData(data.data[0].regions)
 
-            } else if (value === 'Cities') {
+            } else if (v === 'Cities') {
                 setData(data.data[0].cities)
 
             } else {

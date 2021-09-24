@@ -9,12 +9,12 @@ margin-left:10px;
 margin-top:10px;
 `
 export default function Star(props) {
-  
+
 
   return (
     <Div>
-      <Rating name="size-small" value = {props.num} max = {Number(props.num)} size="small" />
-    
+      <Rating name="size-small" value={props.num} max={Number(props.num)} size="small" />
+
     </Div>
   );
 }

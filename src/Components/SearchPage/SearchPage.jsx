@@ -12,8 +12,8 @@ import styles from "./SearchRequest.module.css"
 export const SearchPage = () => {
 
     const [showData, setShowData] = useState(HotelData)
-    // const [price, setPrice] = useState(false)
-    // const [star, setStar] = useState(false)
+    const [price, setPrice] = useState(false)
+    const [star, setStar] = useState(false)
     // const [policy, setPolicy] = useState(false)
 
 
@@ -32,7 +32,7 @@ export const SearchPage = () => {
 
                 const filteredAbove1500 = HotelData.filter((el) => {
 
-                    return ((Number(el.price) >= 1000));
+                    return ((Number(el.price) >= 1000) && (Number(el.price) < 1500));
                 })
                 setShowData([...filteredAbove1500])
             }
@@ -45,7 +45,7 @@ export const SearchPage = () => {
                 setShowData([...filteredAbove1500])
             }
 
-
+            setPrice(!price)
         }
         else {
             setShowData(HotelData)
@@ -56,31 +56,62 @@ export const SearchPage = () => {
     }
     const filterStar = (e) => {
 
+        if (price) {
+            const filteredAbove1500 = showData.filter((el) => {
 
-
-        const filteredAbove1500 = HotelData.filter((el) => {
-
-            return (Number(el.rating) === Number(e.target.value))
-        })
-        setShowData([...filteredAbove1500])
-
-    }
-    const filterPolicy = (e) => {
-        if (e.target.value === "cancellation") {
-
-            const filteredAbove1500 = HotelData.filter((el) => {
-
-                return (el.cancellation === "Free")
+                return (Number(el.rating) === Number(e.target.value))
             })
             setShowData([...filteredAbove1500])
         }
-        if (e.target.value === "breakFast") {
+
+        else {
 
             const filteredAbove1500 = HotelData.filter((el) => {
 
-                return (el.breakFast === "Included")
+                return (Number(el.rating) === Number(e.target.value))
             })
             setShowData([...filteredAbove1500])
+        }
+
+        setStar(!star)
+    }
+    const filterPolicy = (e) => {
+        if (star || price) {
+
+            if (e.target.value === "cancellation") {
+
+                const filteredAbove1500 = showData.filter((el) => {
+
+                    return (el.cancellation === "Free")
+                })
+                setShowData([...filteredAbove1500])
+            }
+            if (e.target.value === "breakFast") {
+
+                const filteredAbove1500 = showData.filter((el) => {
+
+                    return (el.breakFast === "Included")
+                })
+                setShowData([...filteredAbove1500])
+            }
+        }
+        else {
+            if (e.target.value === "cancellation") {
+
+                const filteredAbove1500 = HotelData.filter((el) => {
+
+                    return (el.cancellation === "Free")
+                })
+                setShowData([...filteredAbove1500])
+            }
+            if (e.target.value === "breakFast") {
+
+                const filteredAbove1500 = HotelData.filter((el) => {
+
+                    return (el.breakFast === "Included")
+                })
+                setShowData([...filteredAbove1500])
+            }
         }
     }
     const filterSearch = (search) => {

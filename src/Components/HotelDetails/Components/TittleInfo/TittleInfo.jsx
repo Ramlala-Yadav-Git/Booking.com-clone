@@ -4,7 +4,8 @@ import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import ShareIcon from '@material-ui/icons/Share';
 import RoomIcon from '@material-ui/icons/Room';
-import { Link } from 'react-router-dom';
+import { redirect } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 const Cont = styled.div`
 display:grid;
 grid-template-columns: 70% 30%;
@@ -204,8 +205,29 @@ p{
 
 `
 export const TitleInfo = (props) => {
+    const [user, setUser] = useState(false);
+
+    useEffect(() => {
+        let data = JSON.parse(localStorage.getItem("login"));
+
+        if (data) {
+            setUser(true)
+        }
+        else {
+            setUser(false)
+        }
+    }, [])
+
     const handleClick = () => {
-        alert("Congratulations! You Rooms has been booked successfully ")
+        if (user) {
+
+            alert("Congratulations! You Rooms has been booked successfully ")
+
+            return <redirect to="/" />
+        }
+        else {
+            alert("Please login first!")
+        }
     }
     return (
 
@@ -250,9 +272,9 @@ export const TitleInfo = (props) => {
                         <Reserve>
 
                             <p onClick={handleClick}>
-                                <Link to="/" style={{ color: "white", textDecoration: "none" }}>
-                                    Reserve
-                                </Link>
+                                {/* <Link to="/" style={{ color: "white", textDecoration: "none" }}> */}
+                                Reserve
+                                {/* </Link> */}
                             </p>
 
                         </Reserve>

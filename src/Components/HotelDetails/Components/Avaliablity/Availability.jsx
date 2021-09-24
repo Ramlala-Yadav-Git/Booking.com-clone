@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+// import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Div = styled.div`
@@ -108,9 +108,28 @@ img{
 `
 export const Availability = () => {
     const [reserve, setReserve] = useState(false)
+    const [user, setUser] = useState(false);
+
+    useEffect(() => {
+        let data = JSON.parse(localStorage.getItem("login"));
+
+        if (data) {
+            setUser(true)
+        }
+        else {
+            setUser(false)
+        }
+    }, [])
+
     const handleClick = () => {
-        setReserve(!reserve)
-        alert("Congratulations! You Rooms has been booked successfully ")
+        if (user) {
+
+            alert("Congratulations! You Rooms has been booked successfully ")
+            setReserve(!reserve)
+        }
+        else {
+            alert("Please login first!")
+        }
     }
 
     return (
@@ -156,11 +175,11 @@ export const Availability = () => {
                     </DataDiv>
 
                     <Button onClick={handleClick}>
-                        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-                            {
-                                !reserve ? "Reserve" : "Reserved"
-                            }
-                        </Link>
+                        {/* <Link to="/" style={{ textDecoration: "none", color: "white" }}> */}
+                        {
+                            !reserve ? "Reserve" : "Reserved"
+                        }
+                        {/* // </Link> */}
                     </Button>
                 </FelxDiv>
 

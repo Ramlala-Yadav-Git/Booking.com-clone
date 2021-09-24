@@ -6,7 +6,6 @@ import { SearchDeals } from "../Components/SearchDeals/SearchDeals"
 import { HomeGuestsDiv } from "../Components/HomeGuests/HomeGuestsDiv"
 import { NextTrip } from "../Components/NextTripDiv/NextTrip"
 import { MiddleSection } from "../Components/middleSection/MiddleSection"
-import axios from "axios"
 
 
 
