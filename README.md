@@ -29,18 +29,8 @@ Run the project.
 ```bash
 cd Booking.com-clone
 npm install
-npm install -g json-server
-json-server --watch db.json --port 3001
 npm start
 ```
-
-
-# Contributers
-
-- [@vishnusankar95](https://github.com/vishnusankar95)
-- [@Rakesh-pilly](https://github.com/Rakesh-pilly)
-- [@Ramlala-Yadav-Git](https://github.com/Ramlala-Yadav-Git)
-- [@ManishSinghBhadouria](https://github.com/ManishSinghBhadouria)
 
 # Tech Stack
 
@@ -54,6 +44,25 @@ React, Javascript, Material-UI, React-router-dom, Axios, Styled-components, Json
     <img src="https://raw.githubusercontent.com/krishaayjois21/krishaayjois21/master/assets/javascript.png" width="100" height="100">
     <img src="https://yogalayout.com/static/reactnative.4e03ea5d.png" width="100" height="100">
  </p>
+
+
+
+# Functionalities Associated with this website
+
+1. A user can register his account.
+2. User can also authenticate with OAuth.
+3. User can search for a room in various hotels.
+4. User can filter the Hotels and Rooms on the basis of Budget and Star Rating.
+5. One can check the availability and book the available Hotels and Rooms.
+
+
+# Contributers
+
+- [@vishnusankar95](https://github.com/vishnusankar95)
+- [@Rakesh-pilly](https://github.com/Rakesh-pilly)
+- [@Ramlala-Yadav-Git](https://github.com/Ramlala-Yadav-Git)
+- [@ManishSinghBhadouria](https://github.com/ManishSinghBhadouria)
+
 
 
 # Glimpse of website
