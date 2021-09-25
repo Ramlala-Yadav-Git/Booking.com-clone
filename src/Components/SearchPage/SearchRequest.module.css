@@ -8,10 +8,11 @@
 }
 
 .SearchRequestContainer{
-    width: 70%;
+    width:70%;
     padding: 5%;
     background-color: rgb(254,187,2);
     border-radius: 10px;
+    /* height: 70vh; */
 
 }
 .SearchRequestContainer > p{
@@ -232,11 +233,11 @@ margin-top: 0px;
 list-style: none;
 width: 70%;
 justify-content: space-evenly;
+/* border: 1px solid black; */
 }
 .hotelListContainer > .listOfHotels{
 list-style: none;
-
-border: 1px solid black;
+/* border: 1px solid black; */
 list-style: none;
 
 }
@@ -246,12 +247,12 @@ margin-bottom: 12px;
 list-style: none;
 }
 .serachPageContainer{
-    justify-content: space-evenly;
     display: flex;
+    justify-content: space-between;
     /* border: 1px solid black; */
     padding: 4%;
-    padding-right: 10%;
-    padding-left: 10%;
+    /* padding-right: 10%; */
+    /* padding-left: 10%; */
   
    
 }

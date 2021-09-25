@@ -122,7 +122,9 @@ export const SearchPage = () => {
         setShowData(filteredData)
     }
     return <>
-        <Navbar />
+        <div>
+            <Navbar />
+        </div>
         <div className={styles.serachPageContainer} >
             <div className={styles.left}>
                 <SearchRequest filterSearch={filterSearch} />
