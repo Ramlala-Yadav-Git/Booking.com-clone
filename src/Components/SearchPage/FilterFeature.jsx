@@ -119,7 +119,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
 
             <div>
                 <div>
-                    <input type="checkbox" value="1500" onChange={handleFilterprice} name="price" />
+                    <input type="radio" value="1500" onChange={handleFilterprice} name="price" />
                     <p>₹1500 +</p>
                 </div>
 
@@ -127,15 +127,15 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="1000" onChange={handleFilterprice} name="price" />
-                    <p>₹1000 - ₹ 1500</p>
+                    <input type="radio" value="1000" onChange={handleFilterprice} name="price" />
+                    <p>₹500 - ₹ 1500</p>
                 </div>
 
                 <p>{countAbove_1000}</p>
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="0" onChange={handleFilterprice} name="price" />
+                    <input type="radio" value="0" onChange={handleFilterprice} name="price" />
                     <p>₹0 - ₹ 1000</p>
                 </div>
 
@@ -148,7 +148,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </h3>
             <div>
                 <div>
-                    <input type="checkbox" value="1" name="star" onChange={handleFilterStar} />
+                    <input type="radio" value="1" name="star" onChange={handleFilterStar} />
                     <p> 1 star</p>
                 </div>
 
@@ -156,7 +156,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="2" name="star" onChange={handleFilterStar} />
+                    <input type="radio" value="2" name="star" onChange={handleFilterStar} />
                     <p> 2 star</p>
                 </div>
 
@@ -164,7 +164,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="3" name="star" onChange={handleFilterStar} />
+                    <input type="radio" value="3" name="star" onChange={handleFilterStar} />
                     <p> 3 star</p>
                 </div>
 
@@ -172,7 +172,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="4" name="star" onChange={handleFilterStar} />
+                    <input type="radio" value="4" name="star" onChange={handleFilterStar} />
                     <p> 4 star</p>
                 </div>
 
@@ -180,7 +180,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="5" name="star" onChange={handleFilterStar} />
+                    <input type="radio" value="5" name="star" onChange={handleFilterStar} />
                     <p> 5 star</p>
                 </div>
 
@@ -193,7 +193,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             <h3>Reservation policy</h3>
             <div>
                 <div>
-                    <input type="checkbox" value="cancellation" name="policy" onChange={handleFilterPolicy} />
+                    <input type="radio" value="cancellation" name="policy" onChange={handleFilterPolicy} />
                     <p> Free cancellation</p>
                 </div>
 
@@ -201,7 +201,7 @@ export const FilterFeature = ({ filterPrice, filterStar, filterPolicy }) => {
             </div>
             <div>
                 <div>
-                    <input type="checkbox" value="breakFast" name="policy" onChange={handleFilterPolicy} />
+                    <input type="radio" value="breakFast" name="policy" onChange={handleFilterPolicy} />
                     <p> Free Breakfast</p>
                 </div>
 
